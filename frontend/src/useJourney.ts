@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { api, readStored, saveStored } from './api';
 import type { JourneySnapshot, Network, Preference } from './types';
 import { offlineAqua } from './offlineAqua';
+import { websocketUrl } from './websocketUrl';
 
 export function useJourney(origin: string, destination: string, preference: Preference, network: Network | null, enabled: boolean) {
   const networkVersion=network?.version ?? '';
@@ -45,7 +46,7 @@ export function useJourney(origin: string, destination: string, preference: Pref
       // Reconnection always refreshes via REST before accepting ordered frames.
       void fetchSnapshot();
       const query = new URLSearchParams({origin, destination, preference});
-      socket = new WebSocket(`${location.protocol === 'https:' ? 'wss' : 'ws'}://${location.host}/ws/journeys?${query}`);
+      socket = new WebSocket(websocketUrl(`/ws/journeys?${query}`));
       socket.onmessage = message => { try { const next = JSON.parse(message.data); if (next.type === 'journey_snapshot') accept(next); } catch { /* Retain the last valid frame. */ } };
       socket.onerror = () => socket?.close();
       socket.onclose = () => {

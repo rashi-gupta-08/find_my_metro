@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { api, readStored, saveStored } from './api';
 import type { Snapshot } from './types';
+import { websocketUrl } from './websocketUrl';
 
 export function useArrivals(station: string) {
   const [snapshot, setSnapshot] = useState<Snapshot | null>(null);
@@ -28,7 +29,7 @@ export function useArrivals(station: string) {
       api.eta(station).then(accept).catch(() => {
         if (alive) setConnection(readStored(key, null) ? 'cached' : 'unavailable');
       });
-      socket = new WebSocket(`${location.protocol === 'https:' ? 'wss' : 'ws'}://${location.host}/ws/eta/${station}`);
+      socket = new WebSocket(websocketUrl(`/ws/eta/${encodeURIComponent(station)}`));
       socket.onmessage = (message) => {
         try { accept(JSON.parse(message.data)); } catch { /* A bad frame cannot replace the current snapshot. */ }
       };

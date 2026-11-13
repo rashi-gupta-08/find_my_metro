@@ -21,3 +21,6 @@ outputs/
 tmp/
 .chart-data-*/
 *.tsbuildinfo
+.vercel/
+.env.*
+!.env.example

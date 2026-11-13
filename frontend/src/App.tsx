@@ -90,7 +90,7 @@ export default function App() {
       const results = await Promise.allSettled([api.network(), api.health(), api.trips(), api.serviceStatus()]);
       if (!alive) return;
       if (results[0].status === 'fulfilled') { setNetwork(results[0].value); saveStored('metro-live-network', results[0].value); setError(''); }
-      else setError('The local backend is unavailable. Start it, then this page will reconnect.');
+      else setError('The metro service is unavailable. This page will reconnect automatically.');
       if (results[1].status === 'fulfilled') setHealth(results[1].value.ready ? 'ready' : 'worker unavailable');
       else setHealth('unavailable');
       if (results[2].status === 'fulfilled') {

@@ -8,7 +8,9 @@ FindMyMetro runs the web passenger app, a Flutter/Dart client, FastAPI API, Post
 
 Station service reports use account authentication, one-time location proximity checks, original observation timestamps and three-account agreement. Qualified community delays can update route estimates at boarding for both surface and underground stations; every participating report must be less than 30 seconds old. Without qualified evidence, the operator segment baseline remains active. Typed arrival/departure/crowding reports remain separate from delay measurements. No phone report creates or moves an operator train. Direct Android cell assistance requires a reviewed station map; none has been supplied.
 
-The original GitHub repository contained only a README and license. This local frontend was built using the published Lovable design as a reference; it is not an export of the hosted site's source. Nothing has been pushed or published. Earlier simulated data remains preserved in `data/metro.db` and is not used by the running app.
+The original GitHub repository contained only a README and license. This frontend was built using the published Lovable design as a reference; it is not an export of the hosted site's source. Earlier simulated data remains preserved locally in `data/metro.db` and is not used by the running app or included in source uploads.
+
+For hosting, see [Vercel deployment](docs/VERCEL_DEPLOYMENT.md). Vercel serves the web frontend and proxies REST requests to a separately hosted FastAPI API. The API, processing worker and PostgreSQL database must be running before the deployed passenger app can work.
 
 ## Start and stop on this Windows machine
 
