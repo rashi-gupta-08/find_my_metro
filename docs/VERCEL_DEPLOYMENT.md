@@ -26,31 +26,40 @@ container/server host; it does not convert the worker into a serverless function
 
 ### Render Blueprint for this repository
 
-`render.yaml` defines a separate API, continuously running worker and PostgreSQL
-database in Singapore. The two application services use the smallest paid
-512 MB compute plan; the database uses the smallest paid 256 MB compute plan
-with 1 GB storage and public database connections disabled. The exact charge
-and resource plan must be reviewed before applying the first sync. No service
-is created by committing this file. Automatic deploys are off in this initial
+`render.yaml` uses the **free** compute plans requested by the project owner:
+one 512 MB web service shares the API and worker, with a separate free PostgreSQL
+database in Singapore. Public database connections are disabled. No paid worker,
+paid database, persistent disk or autoscaling resource is defined. No service is
+created by committing this file. Automatic deploys are off in this initial
 configuration.
+
+Free web services sleep after 15 idle minutes and cold starts can take about one
+minute. The worker sleeps with the service. Free PostgreSQL expires after 30 days
+and has no managed backups. This deployment is for evaluation/testing; these free
+plans do not provide continuous production availability. No paid upgrades or
+paid replacements are authorized.
 
 Render generates an authentication seed and runtime database password in a
 shared environment group. The launcher derives a stable 64-character signing
 key from that seed. Both services receive the same signing key and use the
-same DML-only database role. An API pre-deploy release command creates the role,
-grants table/sequence access and applies migrations with the schema-owner role.
+same DML-only database role. During startup the launcher creates the role, grants
+table/sequence access and applies migrations with the schema-owner role. A
+database advisory lock serializes this step if starts overlap. The launcher then
+executes a fresh supervisor process with runtime-only credentials; that process
+starts the API and worker. If either child fails it stops the other and exits, so
+Render can restart a complete backend. SIGTERM is forwarded to both children.
 The schema-owner connection is stored in Render's service configuration for
 release/startup configuration; the launcher removes it and the raw generated
 secrets from the environment passed to the running API and worker. Service
 administrators still have access to that control-plane configuration.
 
 Set the API's `CORS_ORIGINS` to the actual, authorized Vercel HTTPS frontend origin
-when approving the Blueprint. The worker references that exact same value.
+when approving the Blueprint. Its worker inherits that exact same value.
 The launcher adds Render's assigned API hostname and the frontend hostname to
-the explicit allowed-host list. The liveness check lets the API and worker start
-independently; require the full `/api/v1/health` result to report the database and
-worker ready before publishing the frontend. Do not treat a green liveness check
-as proof that crowdsourcing processing works.
+the explicit allowed-host list. The `/api/v1/health/ready` check requires database
+access and a current worker heartbeat before traffic is accepted. Also inspect
+the full `/api/v1/health` result and verify report processing before publishing the
+frontend.
 
 The following generic hosting instructions describe the equivalent services when
 not using the Blueprint launcher.

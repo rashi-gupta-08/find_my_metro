@@ -1,12 +1,15 @@
 """Render launcher: derive runtime configuration and keep owner credentials out of it.
 
-Only the release command uses the database owner. API and worker connect with a
+Only the migration step uses the database owner. API and worker connect with a
 separate DML-only role; the same generated secrets are shared by both services.
 """
 import hashlib
 import os
+import signal
 import subprocess
 import sys
+import threading
+import time
 from urllib.parse import urlsplit
 
 import psycopg
@@ -76,24 +79,73 @@ def initialize_runtime_role(owner, password):
                 sql.Identifier(owner.username), sql.Identifier(RUNTIME_ROLE)))
 
 
+def run_migrations(environment, owner, password):
+    dsn = owner.set(drivername="postgresql").render_as_string(hide_password=False)
+    with psycopg.connect(dsn) as guard:
+        # Cold starts/deploys must not race while creating roles or applying DDL.
+        guard.execute("SELECT pg_advisory_lock(%s)", (64124502,))
+        initialize_runtime_role(owner, password)
+        release_environment = {**environment, "MIGRATION_DATABASE_URL": owner.render_as_string(hide_password=False)}
+        subprocess.run([sys.executable, "-m", "backend.app.bootstrap"], env=release_environment, check=True)
+
+
+def process_command(mode, environment):
+    if mode == "worker":
+        return [sys.executable, "-m", "backend.app.worker"]
+    port = int(environment.get("PORT", "8000"))
+    if not 1 <= port <= 65535:
+        raise ValueError("Invalid service port")
+    return [sys.executable, "-m", "uvicorn", "backend.app.main:app", "--host", "0.0.0.0", "--port", str(port),
+            "--no-proxy-headers", "--no-server-header", "--ws-max-size", "4096", "--limit-concurrency", "300"]
+
+
+def supervise(environment):
+    """Free compute shares API and worker; terminate both if either one fails."""
+    stopped = threading.Event()
+    previous = {}
+    processes = []
+    try:
+        for signum in (signal.SIGTERM, signal.SIGINT):
+            previous[signum] = signal.signal(signum, lambda *_: stopped.set())
+        for mode in ("api", "worker"):
+            processes.append(subprocess.Popen(process_command(mode, environment), env=environment))
+        while not stopped.is_set():
+            for process in processes:
+                if process.poll() is not None:
+                    # Unexpected exit, even zero, must not leave half an app live.
+                    return 1
+            stopped.wait(.25)
+        return 0
+    finally:
+        for process in processes:
+            if process.poll() is None:
+                process.terminate()
+        deadline = time.monotonic() + 10
+        for process in processes:
+            try:
+                process.wait(timeout=max(0, deadline-time.monotonic()))
+            except subprocess.TimeoutExpired:
+                process.kill()
+                process.wait()
+        for signum, handler in previous.items():
+            signal.signal(signum, handler)
+
+
 def main():
     mode = sys.argv[1] if len(sys.argv) == 2 else ""
-    if mode not in {"migrate", "api", "worker"}:
-        raise ValueError("Use migrate, api or worker")
+    if mode == "supervise":
+        # Reached via a fresh exec with runtime-only credentials after migration.
+        raise SystemExit(supervise(dict(os.environ)))
+    if mode not in {"migrate", "api", "worker", "free"}:
+        raise ValueError("Use migrate, api, worker or free")
     environment, owner, password = prepare_environment(os.environ)
-    if mode == "migrate":
-        initialize_runtime_role(owner, password)
-        environment["MIGRATION_DATABASE_URL"] = owner.render_as_string(hide_password=False)
-        subprocess.run([sys.executable, "-m", "backend.app.bootstrap"], env=environment, check=True)
-        return
-    if mode == "worker":
-        command = [sys.executable, "-m", "backend.app.worker"]
-    else:
-        port = int(environment.get("PORT", "8000"))
-        if not 1 <= port <= 65535:
-            raise ValueError("Invalid service port")
-        command = [sys.executable, "-m", "uvicorn", "backend.app.main:app", "--host", "0.0.0.0", "--port", str(port),
-                   "--no-proxy-headers", "--no-server-header", "--ws-max-size", "4096", "--limit-concurrency", "300"]
+    if mode in {"migrate", "free"}:
+        run_migrations(environment, owner, password)
+        if mode == "migrate":
+            return
+        # Re-exec discards the owner's credentials before supervising either child.
+        return os.execvpe(sys.executable, [sys.executable, "-m", "backend.app.render_entrypoint", "supervise"], environment)
+    command = process_command(mode, environment)
     # Replace the launcher so Uvicorn/worker receives SIGTERM directly. The
     # owner connection, raw auth seed and separate password variable are absent.
     os.execvpe(command[0], command, environment)
