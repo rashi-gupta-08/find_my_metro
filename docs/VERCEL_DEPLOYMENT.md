@@ -24,6 +24,37 @@ container/server host; it does not convert the worker into a serverless function
 
 ## 1. Start the hosted backend
 
+### Render Blueprint for this repository
+
+`render.yaml` defines a separate API, continuously running worker and PostgreSQL
+database in Singapore. The two application services use the smallest paid
+512 MB compute plan; the database uses the smallest paid 256 MB compute plan
+with 1 GB storage and public database connections disabled. The exact charge
+and resource plan must be reviewed before applying the first sync. No service
+is created by committing this file. Automatic deploys are off in this initial
+configuration.
+
+Render generates an authentication seed and runtime database password in a
+shared environment group. The launcher derives a stable 64-character signing
+key from that seed. Both services receive the same signing key and use the
+same DML-only database role. An API pre-deploy release command creates the role,
+grants table/sequence access and applies migrations with the schema-owner role.
+The schema-owner connection is stored in Render's service configuration for
+release/startup configuration; the launcher removes it and the raw generated
+secrets from the environment passed to the running API and worker. Service
+administrators still have access to that control-plane configuration.
+
+Set the API's `CORS_ORIGINS` to the actual, authorized Vercel HTTPS frontend origin
+when approving the Blueprint. The worker references that exact same value.
+The launcher adds Render's assigned API hostname and the frontend hostname to
+the explicit allowed-host list. The liveness check lets the API and worker start
+independently; require the full `/api/v1/health` result to report the database and
+worker ready before publishing the frontend. Do not treat a green liveness check
+as proof that crowdsourcing processing works.
+
+The following generic hosting instructions describe the equivalent services when
+not using the Blueprint launcher.
+
 Use a host that runs containers or persistent Python services and supplies public
 HTTPS/WSS. Build from the **repository root**, using `backend/Dockerfile`.
 The image contains the backend, migrations and public operator catalogue.

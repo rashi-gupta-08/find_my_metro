@@ -1,0 +1,76 @@
+# Changes are planned before application. No secrets or local data are uploaded.
+services:
+  - type: web
+    name: findmymetro-api
+    runtime: docker
+    plan: 0.5c-512mb
+    region: singapore
+    branch: codex/local-backend-integration
+    dockerfilePath: backend/Dockerfile
+    dockerContext: .
+    dockerCommand: python -m backend.app.render_entrypoint api
+    preDeployCommand: python -m backend.app.render_entrypoint migrate
+    healthCheckPath: /api/v1/health/live
+    autoDeployTrigger: 'off'
+    envVars:
+      - fromGroup: findmymetro-secrets
+      - key: RENDER_DATABASE_URL
+        fromDatabase:
+          name: findmymetro-postgres
+          property: connectionString
+      - key: CORS_ORIGINS
+        sync: false
+      - key: NETWORK_FILE
+        value: /app/data/operator-network.json
+      - key: HARDWARE_ENABLED
+        value: "false"
+      - key: MQTT_ENABLED
+        value: "false"
+      - key: SIMULATION_ENABLED
+        value: "false"
+      - key: PORT
+        value: "8000"
+  - type: worker
+    name: findmymetro-worker
+    runtime: docker
+    plan: 0.5c-512mb
+    region: singapore
+    branch: codex/local-backend-integration
+    dockerfilePath: backend/Dockerfile
+    dockerContext: .
+    dockerCommand: python -m backend.app.render_entrypoint worker
+    autoDeployTrigger: 'off'
+    envVars:
+      - fromGroup: findmymetro-secrets
+      - key: RENDER_DATABASE_URL
+        fromDatabase:
+          name: findmymetro-postgres
+          property: connectionString
+      - key: CORS_ORIGINS
+        fromService:
+          name: findmymetro-api
+          type: web
+          envVarKey: CORS_ORIGINS
+      - key: NETWORK_FILE
+        value: /app/data/operator-network.json
+      - key: HARDWARE_ENABLED
+        value: "false"
+      - key: MQTT_ENABLED
+        value: "false"
+      - key: SIMULATION_ENABLED
+        value: "false"
+databases:
+  - name: findmymetro-postgres
+    databaseName: metro
+    user: metro_owner
+    plan: 0.1c-256mb
+    region: singapore
+    diskSizeGB: 1
+    ipAllowList: []
+envVarGroups:
+  - name: findmymetro-secrets
+    envVars:
+      - key: RENDER_AUTH_SEED
+        generateValue: true
+      - key: RENDER_APP_PASSWORD
+        generateValue: true
