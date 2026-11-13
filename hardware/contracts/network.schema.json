@@ -1,0 +1,442 @@
+{
+  "$defs": {
+    "Checkpoint": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "maxLength": 100,
+          "minLength": 1,
+          "title": "Id",
+          "type": "string"
+        },
+        "node_id": {
+          "pattern": "^[A-Za-z0-9_-]{1,100}$",
+          "title": "Node Id",
+          "type": "string"
+        },
+        "line_id": {
+          "title": "Line Id",
+          "type": "string"
+        },
+        "direction": {
+          "enum": [
+            "inbound",
+            "outbound"
+          ],
+          "title": "Direction",
+          "type": "string"
+        },
+        "position_m": {
+          "maximum": 500000,
+          "minimum": 0,
+          "title": "Position M",
+          "type": "number"
+        }
+      },
+      "required": [
+        "id",
+        "node_id",
+        "line_id",
+        "direction",
+        "position_m"
+      ],
+      "title": "Checkpoint",
+      "type": "object"
+    },
+    "GeoPoint": {
+      "additionalProperties": false,
+      "properties": {
+        "lat": {
+          "maximum": 90,
+          "minimum": -90,
+          "title": "Lat",
+          "type": "number"
+        },
+        "lng": {
+          "maximum": 180,
+          "minimum": -180,
+          "title": "Lng",
+          "type": "number"
+        }
+      },
+      "required": [
+        "lat",
+        "lng"
+      ],
+      "title": "GeoPoint",
+      "type": "object"
+    },
+    "Line": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-z0-9-]{1,30}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "operator_id": {
+          "enum": [
+            "dmrc",
+            "nmrc"
+          ],
+          "title": "Operator Id",
+          "type": "string"
+        },
+        "name": {
+          "maxLength": 100,
+          "minLength": 1,
+          "title": "Name",
+          "type": "string"
+        },
+        "color": {
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "title": "Color",
+          "type": "string"
+        },
+        "station_ids": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 200,
+          "minItems": 2,
+          "title": "Station Ids",
+          "type": "array"
+        },
+        "segments": {
+          "items": {
+            "$ref": "#/$defs/Segment"
+          },
+          "maxItems": 199,
+          "minItems": 1,
+          "title": "Segments",
+          "type": "array"
+        },
+        "dwell_seconds": {
+          "maximum": 600,
+          "minimum": 0,
+          "title": "Dwell Seconds",
+          "type": "integer"
+        },
+        "family_id": {
+          "anyOf": [
+            {
+              "maxLength": 30,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Family Id"
+        }
+      },
+      "required": [
+        "id",
+        "operator_id",
+        "name",
+        "color",
+        "station_ids",
+        "segments",
+        "dwell_seconds"
+      ],
+      "title": "Line",
+      "type": "object"
+    },
+    "Segment": {
+      "additionalProperties": false,
+      "properties": {
+        "metres": {
+          "exclusiveMinimum": 0,
+          "maximum": 20000,
+          "title": "Metres",
+          "type": "number"
+        },
+        "seconds": {
+          "exclusiveMinimum": 0,
+          "maximum": 3600,
+          "title": "Seconds",
+          "type": "integer"
+        },
+        "zone": {
+          "enum": [
+            "underground",
+            "transition",
+            "surface"
+          ],
+          "title": "Zone",
+          "type": "string"
+        },
+        "geometry": {
+          "items": {
+            "$ref": "#/$defs/GeoPoint"
+          },
+          "maxItems": 1000,
+          "minItems": 2,
+          "title": "Geometry",
+          "type": "array"
+        },
+        "timing_source": {
+          "default": "configured",
+          "maxLength": 100,
+          "title": "Timing Source",
+          "type": "string"
+        },
+        "distance_source": {
+          "default": "configured",
+          "maxLength": 100,
+          "title": "Distance Source",
+          "type": "string"
+        }
+      },
+      "required": [
+        "metres",
+        "seconds",
+        "zone",
+        "geometry"
+      ],
+      "title": "Segment",
+      "type": "object"
+    },
+    "Station": {
+      "additionalProperties": false,
+      "properties": {
+        "lat": {
+          "maximum": 90,
+          "minimum": -90,
+          "title": "Lat",
+          "type": "number"
+        },
+        "lng": {
+          "maximum": 180,
+          "minimum": -180,
+          "title": "Lng",
+          "type": "number"
+        },
+        "id": {
+          "pattern": "^[a-z0-9-]{1,60}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "name": {
+          "maxLength": 100,
+          "minLength": 1,
+          "title": "Name",
+          "type": "string"
+        },
+        "area": {
+          "default": "",
+          "maxLength": 100,
+          "title": "Area",
+          "type": "string"
+        },
+        "x": {
+          "maximum": 850,
+          "minimum": 0,
+          "title": "X",
+          "type": "number"
+        },
+        "y": {
+          "maximum": 500,
+          "minimum": 0,
+          "title": "Y",
+          "type": "number"
+        },
+        "zone": {
+          "enum": [
+            "underground",
+            "transition",
+            "surface"
+          ],
+          "title": "Zone",
+          "type": "string"
+        }
+      },
+      "required": [
+        "lat",
+        "lng",
+        "id",
+        "name",
+        "x",
+        "y",
+        "zone"
+      ],
+      "title": "Station",
+      "type": "object"
+    },
+    "TransferConnection": {
+      "additionalProperties": false,
+      "properties": {
+        "from_station_id": {
+          "title": "From Station Id",
+          "type": "string"
+        },
+        "to_station_id": {
+          "title": "To Station Id",
+          "type": "string"
+        },
+        "seconds": {
+          "exclusiveMinimum": 0,
+          "maximum": 3600,
+          "title": "Seconds",
+          "type": "integer"
+        },
+        "requires_exit": {
+          "title": "Requires Exit",
+          "type": "boolean"
+        },
+        "walking_metres": {
+          "anyOf": [
+            {
+              "maximum": 10000,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Walking Metres"
+        },
+        "distance_estimated": {
+          "default": true,
+          "title": "Distance Estimated",
+          "type": "boolean"
+        },
+        "source_url": {
+          "anyOf": [
+            {
+              "maxLength": 1000,
+              "pattern": "^https://",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Url"
+        }
+      },
+      "required": [
+        "from_station_id",
+        "to_station_id",
+        "seconds",
+        "requires_exit"
+      ],
+      "title": "TransferConnection",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": 1,
+      "default": 1,
+      "title": "Schema Version",
+      "type": "integer"
+    },
+    "provider": {
+      "maxLength": 100,
+      "minLength": 1,
+      "title": "Provider",
+      "type": "string"
+    },
+    "source_url": {
+      "maxLength": 1000,
+      "pattern": "^https://",
+      "title": "Source Url",
+      "type": "string"
+    },
+    "version": {
+      "maxLength": 80,
+      "minLength": 1,
+      "title": "Version",
+      "type": "string"
+    },
+    "published_at": {
+      "format": "date-time",
+      "title": "Published At",
+      "type": "string"
+    },
+    "stations": {
+      "items": {
+        "$ref": "#/$defs/Station"
+      },
+      "maxItems": 1000,
+      "minItems": 2,
+      "title": "Stations",
+      "type": "array"
+    },
+    "lines": {
+      "items": {
+        "$ref": "#/$defs/Line"
+      },
+      "maxItems": 30,
+      "minItems": 1,
+      "title": "Lines",
+      "type": "array"
+    },
+    "checkpoints": {
+      "items": {
+        "$ref": "#/$defs/Checkpoint"
+      },
+      "maxItems": 10000,
+      "title": "Checkpoints",
+      "type": "array"
+    },
+    "transfer_seconds": {
+      "maximum": 3600,
+      "minimum": 30,
+      "title": "Transfer Seconds",
+      "type": "integer"
+    },
+    "transfers": {
+      "items": {
+        "$ref": "#/$defs/TransferConnection"
+      },
+      "maxItems": 200,
+      "title": "Transfers",
+      "type": "array"
+    },
+    "journey_planning": {
+      "default": false,
+      "title": "Journey Planning",
+      "type": "boolean"
+    },
+    "sources": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "maxItems": 30,
+      "title": "Sources",
+      "type": "array"
+    },
+    "coverage_note": {
+      "default": "",
+      "maxLength": 2000,
+      "title": "Coverage Note",
+      "type": "string"
+    },
+    "transfer_walking_metres": {
+      "default": 180,
+      "maximum": 2000,
+      "minimum": 0,
+      "title": "Transfer Walking Metres",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "provider",
+    "source_url",
+    "version",
+    "published_at",
+    "stations",
+    "lines",
+    "transfer_seconds"
+  ],
+  "title": "NetworkImport",
+  "type": "object"
+}

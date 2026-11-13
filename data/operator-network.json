@@ -1,0 +1,7948 @@
+{
+  "schema_version": 1,
+  "provider": "DMRC & NMRC passenger information",
+  "source_url": "https://delhimetrorail.com/map",
+  "version": "operator-catalogue-2026-10-08-227ea9a4f1",
+  "published_at": "2026-10-08T17:03:50.243108Z",
+  "stations": [
+    {
+      "lat": 28.7144,
+      "lng": 77.1669,
+      "id": "dmrc-ahnr",
+      "name": "Adarsh Nagar",
+      "area": "Delhi Metro",
+      "x": 343.51,
+      "y": 62.82,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5727649,
+      "lng": 77.258494,
+      "id": "dmrc-ahrm",
+      "name": "Ashram",
+      "area": "Delhi Metro",
+      "x": 459.22,
+      "y": 216.77,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.5668,
+      "lng": 77.2081,
+      "id": "dmrc-aiims",
+      "name": "Aiims",
+      "area": "Delhi Metro",
+      "x": 395.56,
+      "y": 223.25,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.4809,
+      "lng": 77.1259,
+      "id": "dmrc-ajg",
+      "name": "Arjan Garh",
+      "area": "Delhi Metro",
+      "x": 291.71,
+      "y": 316.62,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6715791,
+      "lng": 77.1552039,
+      "id": "dmrc-apmn",
+      "name": "Ashok Park Main",
+      "area": "Delhi Metro",
+      "x": 328.73,
+      "y": 109.37,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5573141,
+      "lng": 77.0869171,
+      "id": "dmrc-apot",
+      "name": "Airport (T-3)",
+      "area": "Delhi Metro",
+      "x": 242.47,
+      "y": 233.56,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.618,
+      "lng": 77.2794,
+      "id": "dmrc-asdm",
+      "name": "Akshardham",
+      "area": "Delhi Metro",
+      "x": 485.63,
+      "y": 167.6,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6729,
+      "lng": 77.3917,
+      "id": "dmrc-atha",
+      "name": "Arthala",
+      "area": "Delhi Metro",
+      "x": 627.5,
+      "y": 107.93,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.647,
+      "lng": 77.3159,
+      "id": "dmrc-avit",
+      "name": "Anand Vihar Isbt",
+      "area": "Delhi Metro",
+      "x": 531.74,
+      "y": 136.08,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.707,
+      "lng": 77.1807,
+      "id": "dmrc-azu",
+      "name": "Azadpur",
+      "area": "Delhi Metro",
+      "x": 360.94,
+      "y": 70.87,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.385109,
+      "lng": 77.3113603,
+      "id": "dmrc-bach",
+      "name": "Bata Chowk",
+      "area": "Delhi Metro",
+      "x": 526.01,
+      "y": 420.73,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.49325,
+      "lng": 77.3007813,
+      "id": "dmrc-bapb",
+      "name": "Badarpur Border",
+      "area": "Delhi Metro",
+      "x": 512.64,
+      "y": 303.19,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.564,
+      "lng": 77.3343,
+      "id": "dmrc-bcgn",
+      "name": "Botanical Garden",
+      "area": "Delhi Metro",
+      "x": 554.99,
+      "y": 226.3,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.7299849889464,
+      "lng": 77.1491824510158,
+      "id": "dmrc-bimr",
+      "name": "Haiderpur Badli Mor",
+      "area": "Delhi Metro",
+      "x": 321.13,
+      "y": 45.89,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.703581,
+      "lng": 77.262331,
+      "id": "dmrc-bjpu",
+      "name": "Bhajanpura",
+      "area": "Delhi Metro",
+      "x": 464.07,
+      "y": 74.58,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.5703764,
+      "lng": 77.1843847,
+      "id": "dmrc-bkcp",
+      "name": "Bhikaji Cama Place",
+      "area": "Delhi Metro",
+      "x": 365.6,
+      "y": 219.36,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.4228115,
+      "lng": 77.3079462,
+      "id": "dmrc-bkmr",
+      "name": "Badkal Mor",
+      "area": "Delhi Metro",
+      "x": 521.7,
+      "y": 379.75,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.736927,
+      "lng": 77.167997,
+      "id": "dmrc-blsw",
+      "name": "Bhalaswa",
+      "area": "Delhi Metro",
+      "x": 344.9,
+      "y": 38.34,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.6299,
+      "lng": 77.2245,
+      "id": "dmrc-brkr",
+      "name": "Barakhamba Road",
+      "area": "Delhi Metro",
+      "x": 416.28,
+      "y": 154.67,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.72976,
+      "lng": 77.19952,
+      "id": "dmrc-buri",
+      "name": "Burari",
+      "area": "Delhi Metro",
+      "x": 384.72,
+      "y": 46.13,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.6906885,
+      "lng": 76.9352146,
+      "id": "dmrc-buss",
+      "name": "Bahadurgarh City",
+      "area": "Delhi Metro",
+      "x": 50.82,
+      "y": 88.6,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.3397812,
+      "lng": 77.316603,
+      "id": "dmrc-bvhm",
+      "name": "Raja Nahar Singh (Ballabhgarh)",
+      "area": "Delhi Metro",
+      "x": 532.63,
+      "y": 470.0,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5410031,
+      "lng": 77.2304831,
+      "id": "dmrc-cdli",
+      "name": "Chirag Delhi",
+      "area": "Delhi Metro",
+      "x": 423.84,
+      "y": 251.29,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.6588,
+      "lng": 77.2304,
+      "id": "dmrc-chk",
+      "name": "Chandni Chowk",
+      "area": "Delhi Metro",
+      "x": 423.73,
+      "y": 123.26,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.5068,
+      "lng": 77.175,
+      "id": "dmrc-chtp",
+      "name": "Chhatarpur",
+      "area": "Delhi Metro",
+      "x": 353.74,
+      "y": 288.47,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6973662,
+      "lng": 76.9187353,
+      "id": "dmrc-cipk",
+      "name": "Brig. Hoshiar Singh",
+      "area": "Delhi Metro",
+      "x": 30.0,
+      "y": 81.34,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6773,
+      "lng": 77.2248,
+      "id": "dmrc-cl",
+      "name": "Civil Lines",
+      "area": "Delhi Metro",
+      "x": 416.66,
+      "y": 103.15,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.6152,
+      "lng": 77.2123,
+      "id": "dmrc-ctst",
+      "name": "Central Secretariat",
+      "area": "Delhi Metro",
+      "x": 400.86,
+      "y": 170.65,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.6488,
+      "lng": 77.2263,
+      "id": "dmrc-cwbr",
+      "name": "Chawri Bazar",
+      "area": "Delhi Metro",
+      "x": 418.55,
+      "y": 134.13,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.548032,
+      "lng": 77.1182363,
+      "id": "dmrc-dacy",
+      "name": "Delhi Aerocity",
+      "area": "Delhi Metro",
+      "x": 282.03,
+      "y": 243.65,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.6155363,
+      "lng": 77.0825158,
+      "id": "dmrc-dbmr",
+      "name": "Dabri Mor - Janakpuri South",
+      "area": "Delhi Metro",
+      "x": 236.91,
+      "y": 170.28,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.58938,
+      "lng": 77.1673313,
+      "id": "dmrc-ddsc",
+      "name": "Durgabai Deshmukh South Campus",
+      "area": "Delhi Metro",
+      "x": 344.05,
+      "y": 198.71,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5921119,
+      "lng": 77.1615398,
+      "id": "dmrc-dkv",
+      "name": "Dhaula Kuan",
+      "area": "Delhi Metro",
+      "x": 336.74,
+      "y": 195.74,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6086915,
+      "lng": 77.1382338,
+      "id": "dmrc-dlic",
+      "name": "Delhi Cantt.",
+      "area": "Delhi Metro",
+      "x": 307.3,
+      "y": 177.72,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.640061,
+      "lng": 77.2386843,
+      "id": "dmrc-dlig",
+      "name": "Delhi Gate",
+      "area": "Delhi Metro",
+      "x": 434.2,
+      "y": 143.62,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.6218,
+      "lng": 77.0411,
+      "id": "dmrc-dm",
+      "name": "Dwarka Mor",
+      "area": "Delhi Metro",
+      "x": 184.58,
+      "y": 163.47,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6118577,
+      "lng": 76.9754261,
+      "id": "dmrc-dnbt",
+      "name": "Dhansa Bus Stand",
+      "area": "Delhi Metro",
+      "x": 101.62,
+      "y": 174.28,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.698002,
+      "lng": 77.118101,
+      "id": "dmrc-dpck",
+      "name": "Deepali Chowk",
+      "area": "Delhi Metro",
+      "x": 281.86,
+      "y": 80.65,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.5864,
+      "lng": 77.0497,
+      "id": "dmrc-dse",
+      "name": "Dwarka Sector - 11",
+      "area": "Delhi Metro",
+      "x": 195.45,
+      "y": 201.95,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5657,
+      "lng": 77.0671,
+      "id": "dmrc-dset",
+      "name": "Dwarka Sector - 8",
+      "area": "Delhi Metro",
+      "x": 217.43,
+      "y": 224.45,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6022,
+      "lng": 77.0259,
+      "id": "dmrc-dsfn",
+      "name": "Dwarka Sector - 14",
+      "area": "Delhi Metro",
+      "x": 165.38,
+      "y": 184.78,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6759,
+      "lng": 77.3215,
+      "id": "dmrc-dsg",
+      "name": "Dilshad Garden",
+      "area": "Delhi Metro",
+      "x": 538.82,
+      "y": 104.67,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6024422,
+      "lng": 77.0803213,
+      "id": "dmrc-dshp",
+      "name": "Dashrathpuri",
+      "area": "Delhi Metro",
+      "x": 234.13,
+      "y": 184.51,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.5743,
+      "lng": 77.0653,
+      "id": "dmrc-dsn",
+      "name": "Dwarka Sector - 9",
+      "area": "Delhi Metro",
+      "x": 215.16,
+      "y": 215.1,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5811,
+      "lng": 77.0575,
+      "id": "dmrc-dst",
+      "name": "Dwarka Sector - 10",
+      "area": "Delhi Metro",
+      "x": 205.3,
+      "y": 207.71,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5972,
+      "lng": 77.0333,
+      "id": "dmrc-dstn",
+      "name": "Dwarka Sector - 13",
+      "area": "Delhi Metro",
+      "x": 174.73,
+      "y": 190.21,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5522,
+      "lng": 77.0583,
+      "id": "dmrc-dsto",
+      "name": "Dwarka Sector - 21",
+      "area": "Delhi Metro",
+      "x": 206.31,
+      "y": 239.12,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.5955,
+      "lng": 77.0417,
+      "id": "dmrc-dsw",
+      "name": "Dwarka Sector - 12",
+      "area": "Delhi Metro",
+      "x": 185.34,
+      "y": 192.06,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6149,
+      "lng": 77.0227,
+      "id": "dmrc-dw",
+      "name": "Dwarka-Kakrola",
+      "area": "Delhi Metro",
+      "x": 161.34,
+      "y": 170.97,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.66479,
+      "lng": 77.2826113,
+      "id": "dmrc-eanr",
+      "name": "East Azad Nagar",
+      "area": "Delhi Metro",
+      "x": 489.69,
+      "y": 116.75,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.37016,
+      "lng": 77.31494,
+      "id": "dmrc-ecmj",
+      "name": "Escorts Mujesar",
+      "area": "Delhi Metro",
+      "x": 530.53,
+      "y": 436.98,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6582712,
+      "lng": 77.1252019,
+      "id": "dmrc-esih",
+      "name": "Esi-Basaidarapur",
+      "area": "Delhi Metro",
+      "x": 290.83,
+      "y": 123.83,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5446117,
+      "lng": 77.261992,
+      "id": "dmrc-gdpi",
+      "name": "Govind Puri",
+      "area": "Delhi Metro",
+      "x": 463.64,
+      "y": 247.37,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.4819,
+      "lng": 77.1023,
+      "id": "dmrc-ge",
+      "name": "Guru Dronacharya",
+      "area": "Delhi Metro",
+      "x": 261.9,
+      "y": 315.53,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5672,
+      "lng": 77.346,
+      "id": "dmrc-gec",
+      "name": "Golf Course",
+      "area": "Delhi Metro",
+      "x": 569.77,
+      "y": 222.82,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6853835,
+      "lng": 76.9949917,
+      "id": "dmrc-ghem",
+      "name": "Ghevra Metro Station",
+      "area": "Delhi Metro",
+      "x": 126.34,
+      "y": 94.36,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5430994,
+      "lng": 77.2410711,
+      "id": "dmrc-gkei",
+      "name": "Greater Kailash",
+      "area": "Delhi Metro",
+      "x": 437.21,
+      "y": 249.01,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.7025224,
+      "lng": 77.2861548,
+      "id": "dmrc-gkpr",
+      "name": "Gokulpuri",
+      "area": "Delhi Metro",
+      "x": 494.17,
+      "y": 75.73,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5598,
+      "lng": 77.2068,
+      "id": "dmrc-gnpk",
+      "name": "Green Park",
+      "area": "Delhi Metro",
+      "x": 393.92,
+      "y": 230.86,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.6984,
+      "lng": 77.2059,
+      "id": "dmrc-gtbr",
+      "name": "Guru Teg Bahadur Nagar",
+      "area": "Delhi Metro",
+      "x": 392.78,
+      "y": 80.22,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.4938,
+      "lng": 77.1492,
+      "id": "dmrc-gtni",
+      "name": "Ghitorni",
+      "area": "Delhi Metro",
+      "x": 321.15,
+      "y": 302.6,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.4592,
+      "lng": 77.0725,
+      "id": "dmrc-hcc",
+      "name": "Millennium City Centre Gurugram",
+      "area": "Delhi Metro",
+      "x": 224.25,
+      "y": 340.2,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6734,
+      "lng": 77.4065,
+      "id": "dmrc-hdnr",
+      "name": "Hindon River",
+      "area": "Delhi Metro",
+      "x": 646.2,
+      "y": 107.39,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.544,
+      "lng": 77.2062,
+      "id": "dmrc-hks",
+      "name": "Hauz Khas",
+      "area": "Delhi Metro",
+      "x": 393.16,
+      "y": 248.03,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.5429658,
+      "lng": 77.273094,
+      "id": "dmrc-hnok",
+      "name": "Harkesh Nagar Okhla",
+      "area": "Delhi Metro",
+      "x": 477.67,
+      "y": 249.16,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6206,
+      "lng": 77.25,
+      "id": "dmrc-idpt",
+      "name": "Indraprastha",
+      "area": "Delhi Metro",
+      "x": 448.49,
+      "y": 164.78,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.4722,
+      "lng": 77.0724,
+      "id": "dmrc-ifoc",
+      "name": "Iffco Chowk",
+      "area": "Delhi Metro",
+      "x": 224.13,
+      "y": 326.07,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5647538,
+      "lng": 77.1221478,
+      "id": "dmrc-igda",
+      "name": "Terminal 1-Igi Airport",
+      "area": "Delhi Metro",
+      "x": 286.97,
+      "y": 225.48,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.550816,
+      "lng": 77.045253,
+      "id": "dmrc-iicc",
+      "name": "Yashobhoomi Dwarka Sector  - 25",
+      "area": "Delhi Metro",
+      "x": 189.83,
+      "y": 240.63,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.547199,
+      "lng": 77.1916283,
+      "id": "dmrc-iit",
+      "name": "Iit",
+      "area": "Delhi Metro",
+      "x": 374.75,
+      "y": 244.56,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.6736,
+      "lng": 77.1703,
+      "id": "dmrc-ilok",
+      "name": "Inderlok",
+      "area": "Delhi Metro",
+      "x": 347.81,
+      "y": 107.17,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5744,
+      "lng": 77.2096,
+      "id": "dmrc-ina",
+      "name": "Dilli Haat - Ina",
+      "area": "Delhi Metro",
+      "x": 397.45,
+      "y": 214.99,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.6319356,
+      "lng": 77.3085679,
+      "id": "dmrc-ipe",
+      "name": "I.P. Extension",
+      "area": "Delhi Metro",
+      "x": 522.48,
+      "y": 152.46,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6278305,
+      "lng": 77.240214,
+      "id": "dmrc-ito",
+      "name": "Ito",
+      "area": "Delhi Metro",
+      "x": 436.13,
+      "y": 156.92,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.5596435,
+      "lng": 77.2733625,
+      "id": "dmrc-iwnr",
+      "name": "Sukhdev Vihar",
+      "area": "Delhi Metro",
+      "x": 478.01,
+      "y": 231.03,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6504603,
+      "lng": 77.2362374,
+      "id": "dmrc-jamd",
+      "name": "Jama Masjid",
+      "area": "Delhi Metro",
+      "x": 431.1,
+      "y": 132.32,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.5627144,
+      "lng": 77.2857862,
+      "id": "dmrc-janr",
+      "name": "Jamia Millia Islamia",
+      "area": "Delhi Metro",
+      "x": 493.7,
+      "y": 227.69,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5859,
+      "lng": 77.2125,
+      "id": "dmrc-jb",
+      "name": "Jor Bagh",
+      "area": "Delhi Metro",
+      "x": 401.12,
+      "y": 202.49,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.6827585,
+      "lng": 77.2725587,
+      "id": "dmrc-jfrb",
+      "name": "Jafrabad",
+      "area": "Delhi Metro",
+      "x": 476.99,
+      "y": 97.22,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.583698,
+      "lng": 77.2362473,
+      "id": "dmrc-jgpa",
+      "name": "Jangpura",
+      "area": "Delhi Metro",
+      "x": 431.12,
+      "y": 204.89,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.7296,
+      "lng": 77.1666,
+      "id": "dmrc-jgpi",
+      "name": "Jahangirpuri",
+      "area": "Delhi Metro",
+      "x": 343.13,
+      "y": 46.3,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.714627,
+      "lng": 77.2866533,
+      "id": "dmrc-jiee",
+      "name": "Johri Enclave",
+      "area": "Delhi Metro",
+      "x": 494.8,
+      "y": 62.58,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5382066,
+      "lng": 77.2811108,
+      "id": "dmrc-jla",
+      "name": "Jasola-Apollo",
+      "area": "Delhi Metro",
+      "x": 487.79,
+      "y": 254.33,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5462285,
+      "lng": 77.2943212,
+      "id": "dmrc-jla8",
+      "name": "Jasola Vihar Shaheen Bagh",
+      "area": "Delhi Metro",
+      "x": 504.48,
+      "y": 245.61,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6758,
+      "lng": 77.3124,
+      "id": "dmrc-jlml",
+      "name": "Jhilmil",
+      "area": "Delhi Metro",
+      "x": 527.32,
+      "y": 104.78,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.587146,
+      "lng": 77.2310163,
+      "id": "dmrc-jlns",
+      "name": "Jln Stadium",
+      "area": "Delhi Metro",
+      "x": 424.51,
+      "y": 201.14,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.625061,
+      "lng": 77.2169953,
+      "id": "dmrc-jnph",
+      "name": "Janpath",
+      "area": "Delhi Metro",
+      "x": 406.8,
+      "y": 159.93,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.6328,
+      "lng": 77.0862,
+      "id": "dmrc-jpe",
+      "name": "Janakpuri East",
+      "area": "Delhi Metro",
+      "x": 241.56,
+      "y": 151.52,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.721209,
+      "lng": 77.223913,
+      "id": "dmrc-jpve",
+      "name": "Jagatpur-Wazirabad",
+      "area": "Delhi Metro",
+      "x": 415.54,
+      "y": 55.42,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.6295,
+      "lng": 77.0778,
+      "id": "dmrc-jpw",
+      "name": "Janakpuri West",
+      "area": "Delhi Metro",
+      "x": 230.95,
+      "y": 155.1,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.72501,
+      "lng": 77.2159,
+      "id": "dmrc-jrmr",
+      "name": "Jharoda Majra",
+      "area": "Delhi Metro",
+      "x": 405.41,
+      "y": 51.29,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.6443,
+      "lng": 77.1999,
+      "id": "dmrc-jw",
+      "name": "Jhandewalan",
+      "area": "Delhi Metro",
+      "x": 385.2,
+      "y": 139.02,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.644,
+      "lng": 77.1885,
+      "id": "dmrc-kb",
+      "name": "Karol Bagh",
+      "area": "Delhi Metro",
+      "x": 370.8,
+      "y": 139.34,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.698,
+      "lng": 77.1405,
+      "id": "dmrc-ke",
+      "name": "Kohat Enclave",
+      "area": "Delhi Metro",
+      "x": 310.16,
+      "y": 80.65,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6675,
+      "lng": 77.2282,
+      "id": "dmrc-kg",
+      "name": "Kashmere Gate",
+      "area": "Delhi Metro",
+      "x": 420.95,
+      "y": 113.8,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.55554,
+      "lng": 77.2394585,
+      "id": "dmrc-khcy",
+      "name": "Kailash Colony",
+      "area": "Delhi Metro",
+      "x": 435.17,
+      "y": 235.49,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6575316,
+      "lng": 77.2885172,
+      "id": "dmrc-khna",
+      "name": "Krishna Nagar",
+      "area": "Delhi Metro",
+      "x": 497.15,
+      "y": 124.64,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.543,
+      "lng": 77.30968,
+      "id": "dmrc-kikj",
+      "name": "Kalindi Kunj",
+      "area": "Delhi Metro",
+      "x": 523.89,
+      "y": 249.12,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.70521,
+      "lng": 77.25447,
+      "id": "dmrc-kjks",
+      "name": "Khajuri Khas",
+      "area": "Delhi Metro",
+      "x": 454.14,
+      "y": 72.81,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.54945,
+      "lng": 77.2570313,
+      "id": "dmrc-kjmd",
+      "name": "Kalkaji Mandir",
+      "area": "Delhi Metro",
+      "x": 457.37,
+      "y": 242.11,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.6485,
+      "lng": 77.3056,
+      "id": "dmrc-kkda",
+      "name": "Karkarduma",
+      "area": "Delhi Metro",
+      "x": 518.73,
+      "y": 134.45,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6450398,
+      "lng": 77.3042615,
+      "id": "dmrc-kkdc",
+      "name": "Karkarduma Court",
+      "area": "Delhi Metro",
+      "x": 517.04,
+      "y": 138.21,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6009531,
+      "lng": 77.2252085,
+      "id": "dmrc-km",
+      "name": "Khan Market",
+      "area": "Delhi Metro",
+      "x": 417.17,
+      "y": 186.13,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.6824,
+      "lng": 77.1648,
+      "id": "dmrc-kn",
+      "name": "Kanhaiya Nagar",
+      "area": "Delhi Metro",
+      "x": 340.86,
+      "y": 97.61,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6557,
+      "lng": 77.1508,
+      "id": "dmrc-knr",
+      "name": "Kirti Nagar",
+      "area": "Delhi Metro",
+      "x": 323.17,
+      "y": 126.63,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6876,
+      "lng": 77.1625,
+      "id": "dmrc-kp",
+      "name": "Keshav Puram",
+      "area": "Delhi Metro",
+      "x": 337.95,
+      "y": 91.95,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6295,
+      "lng": 77.0778,
+      "id": "dmrc-kpen",
+      "name": "Krishna Park Extension",
+      "area": "Delhi Metro",
+      "x": 230.95,
+      "y": 155.1,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.6455,
+      "lng": 77.3244,
+      "id": "dmrc-kshi",
+      "name": "Kaushambi",
+      "area": "Delhi Metro",
+      "x": 542.48,
+      "y": 137.71,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5706249,
+      "lng": 77.2342561,
+      "id": "dmrc-ljpn",
+      "name": "Lajpat Nagar",
+      "area": "Delhi Metro",
+      "x": 428.6,
+      "y": 219.09,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5977,
+      "lng": 77.2112,
+      "id": "dmrc-lkm",
+      "name": "Lok Kalyan Marg",
+      "area": "Delhi Metro",
+      "x": 399.47,
+      "y": 189.67,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.6577564,
+      "lng": 77.2347368,
+      "id": "dmrc-llqa",
+      "name": "Lal Quila",
+      "area": "Delhi Metro",
+      "x": 429.21,
+      "y": 124.39,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.6305,
+      "lng": 77.2773,
+      "id": "dmrc-ln",
+      "name": "Laxmi Nagar",
+      "area": "Delhi Metro",
+      "x": 482.98,
+      "y": 154.02,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.67634,
+      "lng": 77.1175513,
+      "id": "dmrc-mapr",
+      "name": "Madipur",
+      "area": "Delhi Metro",
+      "x": 281.17,
+      "y": 104.19,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6259,
+      "lng": 77.2343,
+      "id": "dmrc-mdhs",
+      "name": "Mandi House",
+      "area": "Delhi Metro",
+      "x": 428.66,
+      "y": 159.02,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.7029,
+      "lng": 77.1937,
+      "id": "dmrc-mdtw",
+      "name": "Model Town",
+      "area": "Delhi Metro",
+      "x": 377.37,
+      "y": 75.32,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.514454,
+      "lng": 77.2902056,
+      "id": "dmrc-mete",
+      "name": "Mohan Estate",
+      "area": "Delhi Metro",
+      "x": 499.28,
+      "y": 280.15,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.4796,
+      "lng": 77.0801,
+      "id": "dmrc-mgro",
+      "name": "M.G. Road",
+      "area": "Delhi Metro",
+      "x": 233.85,
+      "y": 318.03,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6822749,
+      "lng": 77.0146522,
+      "id": "dmrc-miaa",
+      "name": "Mundka Industrial Area (Mia)",
+      "area": "Delhi Metro",
+      "x": 151.17,
+      "y": 97.74,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6892418,
+      "lng": 76.9489583,
+      "id": "dmrc-miee",
+      "name": "Pandit Shree Ram Sharma",
+      "area": "Delhi Metro",
+      "x": 68.18,
+      "y": 90.17,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5567549,
+      "lng": 77.1719806,
+      "id": "dmrc-mirk",
+      "name": "Munirka",
+      "area": "Delhi Metro",
+      "x": 349.93,
+      "y": 234.17,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.724167,
+      "lng": 77.1805273,
+      "id": "dmrc-mkpr",
+      "name": "Majlis Park",
+      "area": "Delhi Metro",
+      "x": 360.73,
+      "y": 52.21,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5647817,
+      "lng": 77.2309781,
+      "id": "dmrc-mlcd",
+      "name": "Moolchand",
+      "area": "Delhi Metro",
+      "x": 424.46,
+      "y": 225.45,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.4484907,
+      "lng": 77.3054333,
+      "id": "dmrc-mmjr",
+      "name": "Mewala Maharajpur",
+      "area": "Delhi Metro",
+      "x": 518.52,
+      "y": 351.84,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6579,
+      "lng": 77.1427,
+      "id": "dmrc-mn",
+      "name": "Moti Nagar",
+      "area": "Delhi Metro",
+      "x": 312.94,
+      "y": 124.23,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6785,
+      "lng": 77.3839,
+      "id": "dmrc-mngm",
+      "name": "Mohan Nagar",
+      "area": "Delhi Metro",
+      "x": 617.65,
+      "y": 101.84,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6756,
+      "lng": 77.3001,
+      "id": "dmrc-mpk",
+      "name": "Mansarovar Park",
+      "area": "Delhi Metro",
+      "x": 511.78,
+      "y": 105.0,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.68239,
+      "lng": 77.0281513,
+      "id": "dmrc-mudk",
+      "name": "Mundka",
+      "area": "Delhi Metro",
+      "x": 168.23,
+      "y": 97.62,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6921031,
+      "lng": 77.2774233,
+      "id": "dmrc-mupr",
+      "name": "Maujpur-Babarpur",
+      "area": "Delhi Metro",
+      "x": 483.14,
+      "y": 87.06,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5928,
+      "lng": 77.2947,
+      "id": "dmrc-mve",
+      "name": "Mayur Vihar Extension",
+      "area": "Delhi Metro",
+      "x": 504.96,
+      "y": 194.99,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.529,
+      "lng": 77.205,
+      "id": "dmrc-mvnr",
+      "name": "Malviya Nagar",
+      "area": "Delhi Metro",
+      "x": 391.64,
+      "y": 264.34,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.6042,
+      "lng": 77.2896,
+      "id": "dmrc-mvp1",
+      "name": "Mayur Vihar -I",
+      "area": "Delhi Metro",
+      "x": 498.52,
+      "y": 182.6,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6057944,
+      "lng": 77.2965148,
+      "id": "dmrc-mvpo",
+      "name": "Shree Ram Mayur Vihar Mandir (Earlier Mayur Vihar Pocket-1)",
+      "area": "Delhi Metro",
+      "x": 507.25,
+      "y": 180.87,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.637099,
+      "lng": 77.1275523,
+      "id": "dmrc-mypi",
+      "name": "Mayapuri",
+      "area": "Delhi Metro",
+      "x": 293.8,
+      "y": 146.84,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5892,
+      "lng": 77.3021,
+      "id": "dmrc-nagr",
+      "name": "New Ashok Nagar",
+      "area": "Delhi Metro",
+      "x": 514.31,
+      "y": 198.91,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.624125,
+      "lng": 77.1342993,
+      "id": "dmrc-navr",
+      "name": "Naraina Vihar",
+      "area": "Delhi Metro",
+      "x": 302.32,
+      "y": 160.95,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.6705,
+      "lng": 77.4158,
+      "id": "dmrc-nbaa",
+      "name": "Shaheed Sthal ( New Bus Adda)",
+      "area": "Delhi Metro",
+      "x": 657.95,
+      "y": 110.54,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.3976537,
+      "lng": 77.3101607,
+      "id": "dmrc-ncaj",
+      "name": "Neelam Chowk Ajronda",
+      "area": "Delhi Metro",
+      "x": 524.49,
+      "y": 407.1,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.354673,
+      "lng": 77.3140293,
+      "id": "dmrc-ncbc",
+      "name": "Sant Surdas (Sihi)",
+      "area": "Delhi Metro",
+      "x": 529.38,
+      "y": 453.81,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5747,
+      "lng": 77.356,
+      "id": "dmrc-ncc",
+      "name": "Noida City Centre",
+      "area": "Delhi Metro",
+      "x": 582.4,
+      "y": 214.67,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6427,
+      "lng": 77.2199,
+      "id": "dmrc-ndi",
+      "name": "New Delhi (Yellow & Airport Line)",
+      "area": "Delhi Metro",
+      "x": 410.47,
+      "y": 140.76,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.6279,
+      "lng": 77.3749,
+      "id": "dmrc-necc",
+      "name": "Noida Electronic City",
+      "area": "Delhi Metro",
+      "x": 606.28,
+      "y": 156.84,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6126772,
+      "lng": 76.984354,
+      "id": "dmrc-nfgh",
+      "name": "Najafgarh",
+      "area": "Delhi Metro",
+      "x": 112.9,
+      "y": 173.39,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.4576694,
+      "lng": 77.3047513,
+      "id": "dmrc-nhpc",
+      "name": "Nhpc Chowk",
+      "area": "Delhi Metro",
+      "x": 517.66,
+      "y": 341.87,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.58936,
+      "lng": 77.2549413,
+      "id": "dmrc-nizm",
+      "name": "Sarai Kale Khan - Nizamuddin",
+      "area": "Delhi Metro",
+      "x": 454.73,
+      "y": 198.73,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.6174019,
+      "lng": 77.0083739,
+      "id": "dmrc-nngi",
+      "name": "Nangli",
+      "area": "Delhi Metro",
+      "x": 143.24,
+      "y": 168.25,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.681984,
+      "lng": 77.0616903,
+      "id": "dmrc-nnoi",
+      "name": "Nangloi",
+      "area": "Delhi Metro",
+      "x": 210.6,
+      "y": 98.06,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5514171,
+      "lng": 77.2506607,
+      "id": "dmrc-np",
+      "name": "Nehru Place",
+      "area": "Delhi Metro",
+      "x": 449.33,
+      "y": 239.97,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.723761,
+      "lng": 77.143663,
+      "id": "dmrc-nppr",
+      "name": "North Pitampura",
+      "area": "Delhi Metro",
+      "x": 314.15,
+      "y": 52.65,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.682133,
+      "lng": 77.0540313,
+      "id": "dmrc-nrsn",
+      "name": "Nangloi Railway Station",
+      "area": "Delhi Metro",
+      "x": 200.92,
+      "y": 97.9,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5708,
+      "lng": 77.3262,
+      "id": "dmrc-nset",
+      "name": "Noida Sector-18",
+      "area": "Delhi Metro",
+      "x": 544.76,
+      "y": 218.9,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5851,
+      "lng": 77.3116,
+      "id": "dmrc-nsft",
+      "name": "Noida Sector-15",
+      "area": "Delhi Metro",
+      "x": 526.31,
+      "y": 203.36,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.696,
+      "lng": 77.1526,
+      "id": "dmrc-nshp",
+      "name": "Netaji Subhash Place",
+      "area": "Delhi Metro",
+      "x": 325.44,
+      "y": 82.82,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5787,
+      "lng": 77.3174,
+      "id": "dmrc-nsst",
+      "name": "Noida Sector-16",
+      "area": "Delhi Metro",
+      "x": 533.64,
+      "y": 210.32,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5458514,
+      "lng": 77.251167,
+      "id": "dmrc-nuee",
+      "name": "Nehru Enclave",
+      "area": "Delhi Metro",
+      "x": 449.97,
+      "y": 246.02,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.6366,
+      "lng": 77.2868,
+      "id": "dmrc-nv",
+      "name": "Nirman Vihar",
+      "area": "Delhi Metro",
+      "x": 494.98,
+      "y": 147.39,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6202,
+      "lng": 77.045,
+      "id": "dmrc-nwd",
+      "name": "Nawada",
+      "area": "Delhi Metro",
+      "x": 189.51,
+      "y": 165.21,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.4102041,
+      "lng": 77.3086392,
+      "id": "dmrc-ofdb",
+      "name": "Old Faridabad",
+      "area": "Delhi Metro",
+      "x": 522.57,
+      "y": 393.46,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5530441,
+      "lng": 77.3201621,
+      "id": "dmrc-okbs",
+      "name": "Okhla Bird Sanctuary",
+      "area": "Delhi Metro",
+      "x": 537.13,
+      "y": 238.2,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5544365,
+      "lng": 77.2648578,
+      "id": "dmrc-okns",
+      "name": "Okhla Nsic",
+      "area": "Delhi Metro",
+      "x": 467.26,
+      "y": 236.69,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5614626,
+      "lng": 77.2919823,
+      "id": "dmrc-ova",
+      "name": "Okhla Vihar",
+      "area": "Delhi Metro",
+      "x": 501.53,
+      "y": 229.05,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6798828,
+      "lng": 77.0910404,
+      "id": "dmrc-pagi",
+      "name": "Peeragarhi",
+      "area": "Delhi Metro",
+      "x": 247.68,
+      "y": 100.34,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5889555,
+      "lng": 77.0806434,
+      "id": "dmrc-palm",
+      "name": "Palam",
+      "area": "Delhi Metro",
+      "x": 234.54,
+      "y": 199.17,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.6729291,
+      "lng": 77.1438705,
+      "id": "dmrc-pbga",
+      "name": "Punjabi Bagh",
+      "area": "Delhi Metro",
+      "x": 314.42,
+      "y": 107.9,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6664,
+      "lng": 77.2074,
+      "id": "dmrc-pbgh",
+      "name": "Pulbangash",
+      "area": "Delhi Metro",
+      "x": 394.67,
+      "y": 115.0,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6727751,
+      "lng": 77.136418,
+      "id": "dmrc-pbgw",
+      "name": "Punjabi Bagh West",
+      "area": "Delhi Metro",
+      "x": 305.0,
+      "y": 108.07,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.713198,
+      "lng": 77.138755,
+      "id": "dmrc-phvr",
+      "name": "Prashant Vihar",
+      "area": "Delhi Metro",
+      "x": 307.95,
+      "y": 64.13,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.645,
+      "lng": 77.1693,
+      "id": "dmrc-pn",
+      "name": "Patel Nagar",
+      "area": "Delhi Metro",
+      "x": 346.54,
+      "y": 138.26,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6666,
+      "lng": 77.1989,
+      "id": "dmrc-pra",
+      "name": "Pratap Nagar",
+      "area": "Delhi Metro",
+      "x": 383.94,
+      "y": 114.78,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5422964,
+      "lng": 77.2185052,
+      "id": "dmrc-pspk",
+      "name": "Panchsheel Park",
+      "area": "Delhi Metro",
+      "x": 408.7,
+      "y": 249.89,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.6233,
+      "lng": 77.2145,
+      "id": "dmrc-ptck",
+      "name": "Patel Chowk",
+      "area": "Delhi Metro",
+      "x": 403.64,
+      "y": 161.84,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.6233,
+      "lng": 77.2427,
+      "id": "dmrc-ptmd",
+      "name": "Supreme Court",
+      "area": "Delhi Metro",
+      "x": 439.27,
+      "y": 161.84,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.7031,
+      "lng": 77.1325,
+      "id": "dmrc-ptp",
+      "name": "Madhuban Chowk (Earlier Pitampura)",
+      "area": "Delhi Metro",
+      "x": 300.05,
+      "y": 75.11,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6419,
+      "lng": 77.2956,
+      "id": "dmrc-ptvr",
+      "name": "Preet Vihar",
+      "area": "Delhi Metro",
+      "x": 506.1,
+      "y": 141.63,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6773312,
+      "lng": 77.1101289,
+      "id": "dmrc-pve",
+      "name": "Paschim Vihar East",
+      "area": "Delhi Metro",
+      "x": 271.79,
+      "y": 103.11,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.678829,
+      "lng": 77.0994732,
+      "id": "dmrc-pvw",
+      "name": "Paschim Vihar West",
+      "area": "Delhi Metro",
+      "x": 258.33,
+      "y": 101.49,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5129,
+      "lng": 77.1863,
+      "id": "dmrc-qm",
+      "name": "Qutab Minar",
+      "area": "Delhi Metro",
+      "x": 368.02,
+      "y": 281.84,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.633,
+      "lng": 77.2194,
+      "id": "dmrc-rck",
+      "name": "Rajiv Chowk",
+      "area": "Delhi Metro",
+      "x": 409.83,
+      "y": 151.3,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.6822794,
+      "lng": 77.0418183,
+      "id": "dmrc-rdpk",
+      "name": "Rajdhani Park",
+      "area": "Delhi Metro",
+      "x": 185.49,
+      "y": 97.74,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.649,
+      "lng": 77.1227,
+      "id": "dmrc-rg",
+      "name": "Rajouri Garden",
+      "area": "Delhi Metro",
+      "x": 287.67,
+      "y": 133.91,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.7077,
+      "lng": 77.1259,
+      "id": "dmrc-rhe",
+      "name": "Rohini",
+      "area": "Delhi Metro",
+      "x": 291.71,
+      "y": 70.11,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.7149,
+      "lng": 77.1155,
+      "id": "dmrc-rhw",
+      "name": "Dr. Baba Saheb Ambedkar Hospital",
+      "area": "Delhi Metro",
+      "x": 278.58,
+      "y": 62.28,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.7208,
+      "lng": 77.1072,
+      "id": "dmrc-ri",
+      "name": "Rithala",
+      "area": "Delhi Metro",
+      "x": 268.09,
+      "y": 55.87,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.7327,
+      "lng": 77.1341,
+      "id": "dmrc-rise",
+      "name": "Rohini Sector - 18, 19",
+      "area": "Delhi Metro",
+      "x": 302.07,
+      "y": 42.93,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6808,
+      "lng": 77.3439,
+      "id": "dmrc-rjbh",
+      "name": "Raj Bagh",
+      "area": "Delhi Metro",
+      "x": 567.12,
+      "y": 99.34,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6776,
+      "lng": 77.3581,
+      "id": "dmrc-rjnm",
+      "name": "Major Mohit Sharma Rajendra Nagar",
+      "area": "Delhi Metro",
+      "x": 585.06,
+      "y": 102.82,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6392,
+      "lng": 77.2086,
+      "id": "dmrc-rkam",
+      "name": "Ramakrishna Ashram Marg",
+      "area": "Delhi Metro",
+      "x": 396.19,
+      "y": 144.56,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5503497,
+      "lng": 77.1851486,
+      "id": "dmrc-rkpm",
+      "name": "R.K.Puram",
+      "area": "Delhi Metro",
+      "x": 366.56,
+      "y": 241.13,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.6527,
+      "lng": 77.1315,
+      "id": "dmrc-rn",
+      "name": "Ramesh Nagar",
+      "area": "Delhi Metro",
+      "x": 298.79,
+      "y": 129.89,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6425,
+      "lng": 77.1782,
+      "id": "dmrc-rp",
+      "name": "Rajendra Place",
+      "area": "Delhi Metro",
+      "x": 357.79,
+      "y": 140.97,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5764632,
+      "lng": 77.1114814,
+      "id": "dmrc-sabr",
+      "name": "Sadar Bazar Cantonment",
+      "area": "Delhi Metro",
+      "x": 273.5,
+      "y": 212.75,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6857703,
+      "lng": 77.1474327,
+      "id": "dmrc-sakp",
+      "name": "Shakurpur",
+      "area": "Delhi Metro",
+      "x": 318.92,
+      "y": 93.94,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5211,
+      "lng": 77.2022,
+      "id": "dmrc-sakt",
+      "name": "Saket",
+      "area": "Delhi Metro",
+      "x": 388.1,
+      "y": 272.92,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.6064,
+      "lng": 77.3731,
+      "id": "dmrc-sfnn",
+      "name": "Sector - 59 Noida",
+      "area": "Delhi Metro",
+      "x": 604.0,
+      "y": 180.21,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5867,
+      "lng": 77.3728,
+      "id": "dmrc-sftn",
+      "name": "Sector - 52 Noida",
+      "area": "Delhi Metro",
+      "x": 603.63,
+      "y": 201.62,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6735,
+      "lng": 77.2899,
+      "id": "dmrc-shd",
+      "name": "Shahdara",
+      "area": "Delhi Metro",
+      "x": 498.9,
+      "y": 107.28,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6766,
+      "lng": 77.3338,
+      "id": "dmrc-shdn",
+      "name": "Shaheed Nagar",
+      "area": "Delhi Metro",
+      "x": 554.36,
+      "y": 103.91,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6683,
+      "lng": 77.2503,
+      "id": "dmrc-shpk",
+      "name": "Shastri Park",
+      "area": "Delhi Metro",
+      "x": 448.87,
+      "y": 112.93,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6701,
+      "lng": 77.1813,
+      "id": "dmrc-sht",
+      "name": "Shastri Nagar",
+      "area": "Delhi Metro",
+      "x": 361.7,
+      "y": 110.97,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.674939,
+      "lng": 77.1283933,
+      "id": "dmrc-shvp",
+      "name": "Shivaji Park",
+      "area": "Delhi Metro",
+      "x": 294.86,
+      "y": 105.71,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6287699,
+      "lng": 77.2114121,
+      "id": "dmrc-sjsu",
+      "name": "Shivaji Stadium",
+      "area": "Delhi Metro",
+      "x": 399.74,
+      "y": 155.9,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.4813,
+      "lng": 77.0931,
+      "id": "dmrc-skrp",
+      "name": "Sikanderpur",
+      "area": "Delhi Metro",
+      "x": 250.28,
+      "y": 316.18,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5608173,
+      "lng": 77.1381563,
+      "id": "dmrc-skvr",
+      "name": "Shankar Vihar",
+      "area": "Delhi Metro",
+      "x": 307.2,
+      "y": 229.75,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6699,
+      "lng": 77.2666,
+      "id": "dmrc-slap",
+      "name": "Seelampur",
+      "area": "Delhi Metro",
+      "x": 469.46,
+      "y": 111.19,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.4991,
+      "lng": 77.1612,
+      "id": "dmrc-sltp",
+      "name": "Sultanpur",
+      "area": "Delhi Metro",
+      "x": 336.31,
+      "y": 296.84,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.702018,
+      "lng": 77.1625815,
+      "id": "dmrc-smbg",
+      "name": "Shalimar Bagh",
+      "area": "Delhi Metro",
+      "x": 338.05,
+      "y": 76.28,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.6782,
+      "lng": 77.3702,
+      "id": "dmrc-smpk",
+      "name": "Shyam Park",
+      "area": "Delhi Metro",
+      "x": 600.34,
+      "y": 102.17,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.68182,
+      "lng": 77.0717713,
+      "id": "dmrc-smsm",
+      "name": "Maharaja Surajmal Stadium",
+      "area": "Delhi Metro",
+      "x": 223.33,
+      "y": 98.24,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6404,
+      "lng": 77.1049,
+      "id": "dmrc-sn",
+      "name": "Subhash Nagar",
+      "area": "Delhi Metro",
+      "x": 265.18,
+      "y": 143.26,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.708431,
+      "lng": 77.242124,
+      "id": "dmrc-snvh",
+      "name": "Sonia Vihar",
+      "area": "Delhi Metro",
+      "x": 438.54,
+      "y": 69.31,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.5686386,
+      "lng": 77.2180074,
+      "id": "dmrc-soen",
+      "name": "South Extension",
+      "area": "Delhi Metro",
+      "x": 408.07,
+      "y": 221.25,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.5757221,
+      "lng": 77.1955806,
+      "id": "dmrc-soji",
+      "name": "Sarojini Nagar",
+      "area": "Delhi Metro",
+      "x": 379.74,
+      "y": 213.55,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.710449573671905,
+      "lng": 77.23041226878645,
+      "id": "dmrc-soog",
+      "name": "Soorghat",
+      "area": "Delhi Metro",
+      "x": 423.75,
+      "y": 67.12,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.6516,
+      "lng": 77.1582,
+      "id": "dmrc-sp",
+      "name": "Shadipur",
+      "area": "Delhi Metro",
+      "x": 332.52,
+      "y": 131.08,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.7446,
+      "lng": 77.1383,
+      "id": "dmrc-spbi",
+      "name": "Samaypur Badli",
+      "area": "Delhi Metro",
+      "x": 307.38,
+      "y": 30.0,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.4780481,
+      "lng": 77.3028175,
+      "id": "dmrc-srai",
+      "name": "Sarai",
+      "area": "Delhi Metro",
+      "x": 515.22,
+      "y": 319.72,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.66213,
+      "lng": 77.1554713,
+      "id": "dmrc-srsm",
+      "name": "Satguru Ram Singh Marg",
+      "area": "Delhi Metro",
+      "x": 329.07,
+      "y": 119.64,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5976,
+      "lng": 77.3701,
+      "id": "dmrc-sson",
+      "name": "Sector - 61 Noida",
+      "area": "Delhi Metro",
+      "x": 600.22,
+      "y": 189.78,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.617,
+      "lng": 77.3736,
+      "id": "dmrc-sstn",
+      "name": "Sector - 62 Noida",
+      "area": "Delhi Metro",
+      "x": 604.64,
+      "y": 168.69,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5801,
+      "lng": 77.3635,
+      "id": "dmrc-stfn",
+      "name": "Sector - 34 Noida",
+      "area": "Delhi Metro",
+      "x": 591.88,
+      "y": 208.8,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.43838,
+      "lng": 77.3067493,
+      "id": "dmrc-stta",
+      "name": "Sector-28",
+      "area": "Delhi Metro",
+      "x": 520.18,
+      "y": 362.83,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5294337,
+      "lng": 77.2861724,
+      "id": "dmrc-stvr",
+      "name": "Sarita Vihar",
+      "area": "Delhi Metro",
+      "x": 494.19,
+      "y": 263.87,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.578504,
+      "lng": 77.1735373,
+      "id": "dmrc-svmb",
+      "name": "Sir M. Vishweshwaraiah Moti Bagh",
+      "area": "Delhi Metro",
+      "x": 351.89,
+      "y": 210.53,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.7215468,
+      "lng": 77.2883255,
+      "id": "dmrc-svvr",
+      "name": "Shiv Vihar",
+      "area": "Delhi Metro",
+      "x": 496.91,
+      "y": 55.06,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6438,
+      "lng": 77.1129,
+      "id": "dmrc-tg",
+      "name": "Tagore Garden",
+      "area": "Delhi Metro",
+      "x": 275.29,
+      "y": 139.56,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.688233,
+      "lng": 76.9620993,
+      "id": "dmrc-tkbr",
+      "name": "Tikri Border",
+      "area": "Delhi Metro",
+      "x": 84.78,
+      "y": 91.27,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5031672,
+      "lng": 77.2963205,
+      "id": "dmrc-tkds",
+      "name": "Tughlakabad Station",
+      "area": "Delhi Metro",
+      "x": 507.01,
+      "y": 292.41,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.68688,
+      "lng": 76.9750813,
+      "id": "dmrc-tklm",
+      "name": "Tikri Kalan",
+      "area": "Delhi Metro",
+      "x": 101.18,
+      "y": 92.74,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6134317,
+      "lng": 77.3077957,
+      "id": "dmrc-tkpr",
+      "name": "Trilokpuri-Sanjay Lake",
+      "area": "Delhi Metro",
+      "x": 521.51,
+      "y": 172.57,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6366,
+      "lng": 77.0965,
+      "id": "dmrc-tn",
+      "name": "Tilak Nagar",
+      "area": "Delhi Metro",
+      "x": 254.57,
+      "y": 147.39,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6671,
+      "lng": 77.2165,
+      "id": "dmrc-tzi",
+      "name": "Tis Hazari",
+      "area": "Delhi Metro",
+      "x": 406.17,
+      "y": 114.24,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.611,
+      "lng": 77.2122,
+      "id": "dmrc-udb",
+      "name": "Seva Teerth (Earlier Udyog Bhawan))",
+      "area": "Delhi Metro",
+      "x": 400.74,
+      "y": 175.21,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.6248,
+      "lng": 77.0653,
+      "id": "dmrc-une",
+      "name": "Uttam Nagar East",
+      "area": "Delhi Metro",
+      "x": 215.16,
+      "y": 160.21,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6810606,
+      "lng": 77.0787957,
+      "id": "dmrc-unrg",
+      "name": "Udyog Nagar",
+      "area": "Delhi Metro",
+      "x": 232.21,
+      "y": 99.06,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6218,
+      "lng": 77.0558,
+      "id": "dmrc-unw",
+      "name": "Uttam Nagar West",
+      "area": "Delhi Metro",
+      "x": 203.16,
+      "y": 163.47,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6498,
+      "lng": 77.3397,
+      "id": "dmrc-vasi",
+      "name": "Vaishali",
+      "area": "Delhi Metro",
+      "x": 561.81,
+      "y": 133.04,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.620363,
+      "lng": 77.3023292,
+      "id": "dmrc-vent",
+      "name": "East Vinod Nagar-Mayur Vihar -Ii",
+      "area": "Delhi Metro",
+      "x": 514.6,
+      "y": 165.03,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.624877,
+      "lng": 77.3021833,
+      "id": "dmrc-vnnr",
+      "name": "Mandawali - West Vinod Nagar",
+      "area": "Delhi Metro",
+      "x": 514.41,
+      "y": 160.13,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.5655297,
+      "lng": 77.2485991,
+      "id": "dmrc-vnpr",
+      "name": "Vinobapuri",
+      "area": "Delhi Metro",
+      "x": 446.72,
+      "y": 224.63,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.6878,
+      "lng": 77.2216,
+      "id": "dmrc-vs",
+      "name": "Vidhan Sabha",
+      "area": "Delhi Metro",
+      "x": 412.61,
+      "y": 91.74,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.5581039,
+      "lng": 77.1603043,
+      "id": "dmrc-vtvr",
+      "name": "Vasant Vihar",
+      "area": "Delhi Metro",
+      "x": 335.18,
+      "y": 232.7,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.6952,
+      "lng": 77.2145,
+      "id": "dmrc-vw",
+      "name": "Vishwavidyalaya",
+      "area": "Delhi Metro",
+      "x": 403.64,
+      "y": 83.69,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.6718,
+      "lng": 77.2777,
+      "id": "dmrc-wc",
+      "name": "Welcome",
+      "area": "Delhi Metro",
+      "x": 483.48,
+      "y": 109.13,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.6233,
+      "lng": 77.2679,
+      "id": "dmrc-yb",
+      "name": "Yamuna Bank",
+      "area": "Delhi Metro",
+      "x": 471.1,
+      "y": 161.84,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.702367,
+      "lng": 77.277337,
+      "id": "dmrc-ymvr",
+      "name": "Yamuna Vihar",
+      "area": "Delhi Metro",
+      "x": 483.03,
+      "y": 75.9,
+      "zone": "underground"
+    },
+    {
+      "lat": 28.585548,
+      "lng": 77.375374,
+      "id": "nmrc-1",
+      "name": "Noida Sector - 51",
+      "area": "Noida Metro · Aqua Line",
+      "x": 606.88,
+      "y": 202.87,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.574547,
+      "lng": 77.378357,
+      "id": "nmrc-2",
+      "name": "Noida Sector - 50",
+      "area": "Noida Metro · Aqua Line",
+      "x": 610.65,
+      "y": 214.83,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.565445,
+      "lng": 77.37973,
+      "id": "nmrc-3",
+      "name": "Noida Sector - 76",
+      "area": "Noida Metro · Aqua Line",
+      "x": 612.38,
+      "y": 224.72,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.556065,
+      "lng": 77.385056,
+      "id": "nmrc-4",
+      "name": "Noida Sector - 101",
+      "area": "Noida Metro · Aqua Line",
+      "x": 619.11,
+      "y": 234.92,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.549259,
+      "lng": 77.390099,
+      "id": "nmrc-5",
+      "name": "Noida Sector - 81",
+      "area": "Noida Metro · Aqua Line",
+      "x": 625.48,
+      "y": 242.32,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.532248,
+      "lng": 77.394951,
+      "id": "nmrc-6",
+      "name": "NSEZ",
+      "area": "Noida Metro · Aqua Line",
+      "x": 631.61,
+      "y": 260.81,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.522284,
+      "lng": 77.396477,
+      "id": "nmrc-7",
+      "name": "Noida Sector - 83",
+      "area": "Noida Metro · Aqua Line",
+      "x": 633.54,
+      "y": 271.64,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.510817,
+      "lng": 77.403625,
+      "id": "nmrc-8",
+      "name": "Noida Sector - 137",
+      "area": "Noida Metro · Aqua Line",
+      "x": 642.57,
+      "y": 284.1,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.498999,
+      "lng": 77.412567,
+      "id": "nmrc-9",
+      "name": "Noida Sector - 142",
+      "area": "Noida Metro · Aqua Line",
+      "x": 653.86,
+      "y": 296.95,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.494246,
+      "lng": 77.422318,
+      "id": "nmrc-10",
+      "name": "Noida Sector - 143",
+      "area": "Noida Metro · Aqua Line",
+      "x": 666.18,
+      "y": 302.11,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.486376,
+      "lng": 77.432968,
+      "id": "nmrc-11",
+      "name": "Noida Sector - 144",
+      "area": "Noida Metro · Aqua Line",
+      "x": 679.64,
+      "y": 310.67,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.47913,
+      "lng": 77.442307,
+      "id": "nmrc-12",
+      "name": "Noida Sector - 145",
+      "area": "Noida Metro · Aqua Line",
+      "x": 691.44,
+      "y": 318.54,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.468822,
+      "lng": 77.455101,
+      "id": "nmrc-13",
+      "name": "Noida Sector - 146",
+      "area": "Noida Metro · Aqua Line",
+      "x": 707.6,
+      "y": 329.74,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.4594,
+      "lng": 77.465965,
+      "id": "nmrc-14",
+      "name": "Noida Sector - 147",
+      "area": "Noida Metro · Aqua Line",
+      "x": 721.32,
+      "y": 339.99,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.448021,
+      "lng": 77.476692,
+      "id": "nmrc-15",
+      "name": "Noida Sector - 148",
+      "area": "Noida Metro · Aqua Line",
+      "x": 734.87,
+      "y": 352.35,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.456865,
+      "lng": 77.500298,
+      "id": "nmrc-16",
+      "name": "Knowledge Park-ll",
+      "area": "Noida Metro · Aqua Line",
+      "x": 764.7,
+      "y": 342.74,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.463331,
+      "lng": 77.508308,
+      "id": "nmrc-17",
+      "name": "Pari Chowk",
+      "area": "Noida Metro · Aqua Line",
+      "x": 774.82,
+      "y": 335.71,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.470879,
+      "lng": 77.512718,
+      "id": "nmrc-18",
+      "name": "Alpha-1",
+      "area": "Noida Metro · Aqua Line",
+      "x": 780.39,
+      "y": 327.51,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.478374,
+      "lng": 77.525581,
+      "id": "nmrc-19",
+      "name": "Delta-1",
+      "area": "Noida Metro · Aqua Line",
+      "x": 796.64,
+      "y": 319.36,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.484531,
+      "lng": 77.536621,
+      "id": "nmrc-20",
+      "name": "GNIDA Office",
+      "area": "Noida Metro · Aqua Line",
+      "x": 810.58,
+      "y": 312.67,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.488651,
+      "lng": 77.544075,
+      "id": "nmrc-21",
+      "name": "Depot Station",
+      "area": "Noida Metro · Aqua Line",
+      "x": 820.0,
+      "y": 308.19,
+      "zone": "surface"
+    }
+  ],
+  "lines": [
+    {
+      "id": "dmrc-ln1",
+      "operator_id": "dmrc",
+      "name": "Red Line",
+      "color": "#c0282c",
+      "station_ids": [
+        "dmrc-nbaa",
+        "dmrc-hdnr",
+        "dmrc-atha",
+        "dmrc-mngm",
+        "dmrc-smpk",
+        "dmrc-rjnm",
+        "dmrc-rjbh",
+        "dmrc-shdn",
+        "dmrc-dsg",
+        "dmrc-jlml",
+        "dmrc-mpk",
+        "dmrc-shd",
+        "dmrc-wc",
+        "dmrc-slap",
+        "dmrc-shpk",
+        "dmrc-kg",
+        "dmrc-tzi",
+        "dmrc-pbgh",
+        "dmrc-pra",
+        "dmrc-sht",
+        "dmrc-ilok",
+        "dmrc-kn",
+        "dmrc-kp",
+        "dmrc-nshp",
+        "dmrc-ke",
+        "dmrc-ptp",
+        "dmrc-rhe",
+        "dmrc-rhw",
+        "dmrc-ri"
+      ],
+      "segments": [
+        {
+          "metres": 963.0,
+          "seconds": 104,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6705,
+              "lng": 77.4158
+            },
+            {
+              "lat": 28.6734,
+              "lng": 77.4065
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1445.0,
+          "seconds": 139,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6734,
+              "lng": 77.4065
+            },
+            {
+              "lat": 28.6729,
+              "lng": 77.3917
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 983.0,
+          "seconds": 91,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6729,
+              "lng": 77.3917
+            },
+            {
+              "lat": 28.6785,
+              "lng": 77.3839
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1337.0,
+          "seconds": 134,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6785,
+              "lng": 77.3839
+            },
+            {
+              "lat": 28.6782,
+              "lng": 77.3702
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1182.0,
+          "seconds": 117,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6782,
+              "lng": 77.3702
+            },
+            {
+              "lat": 28.6776,
+              "lng": 77.3581
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1430.0,
+          "seconds": 120,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6776,
+              "lng": 77.3581
+            },
+            {
+              "lat": 28.6808,
+              "lng": 77.3439
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1090.0,
+          "seconds": 130,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6808,
+              "lng": 77.3439
+            },
+            {
+              "lat": 28.6766,
+              "lng": 77.3338
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1202.0,
+          "seconds": 136,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6766,
+              "lng": 77.3338
+            },
+            {
+              "lat": 28.6759,
+              "lng": 77.3215
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 888.0,
+          "seconds": 113,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6759,
+              "lng": 77.3215
+            },
+            {
+              "lat": 28.6758,
+              "lng": 77.3124
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1200.0,
+          "seconds": 121,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6758,
+              "lng": 77.3124
+            },
+            {
+              "lat": 28.6756,
+              "lng": 77.3001
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1022.0,
+          "seconds": 125,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6756,
+              "lng": 77.3001
+            },
+            {
+              "lat": 28.6735,
+              "lng": 77.2899
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1205.0,
+          "seconds": 132,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6735,
+              "lng": 77.2899
+            },
+            {
+              "lat": 28.6718,
+              "lng": 77.2777
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1103.0,
+          "seconds": 119,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6718,
+              "lng": 77.2777
+            },
+            {
+              "lat": 28.6699,
+              "lng": 77.2666
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1600.0,
+          "seconds": 147,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6699,
+              "lng": 77.2666
+            },
+            {
+              "lat": 28.6683,
+              "lng": 77.2503
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 2158.0,
+          "seconds": 196,
+          "zone": "transition",
+          "geometry": [
+            {
+              "lat": 28.6683,
+              "lng": 77.2503
+            },
+            {
+              "lat": 28.6675,
+              "lng": 77.2282
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1142.0,
+          "seconds": 130,
+          "zone": "transition",
+          "geometry": [
+            {
+              "lat": 28.6675,
+              "lng": 77.2282
+            },
+            {
+              "lat": 28.6671,
+              "lng": 77.2165
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 891.0,
+          "seconds": 109,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6671,
+              "lng": 77.2165
+            },
+            {
+              "lat": 28.6664,
+              "lng": 77.2074
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 830.0,
+          "seconds": 106,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6664,
+              "lng": 77.2074
+            },
+            {
+              "lat": 28.6666,
+              "lng": 77.1989
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1761.0,
+          "seconds": 147,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6666,
+              "lng": 77.1989
+            },
+            {
+              "lat": 28.6701,
+              "lng": 77.1813
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1142.0,
+          "seconds": 127,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6701,
+              "lng": 77.1813
+            },
+            {
+              "lat": 28.6736,
+              "lng": 77.1703
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1116.0,
+          "seconds": 123,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6736,
+              "lng": 77.1703
+            },
+            {
+              "lat": 28.6824,
+              "lng": 77.1648
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 620.0,
+          "seconds": 99,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6824,
+              "lng": 77.1648
+            },
+            {
+              "lat": 28.6876,
+              "lng": 77.1625
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1344.0,
+          "seconds": 138,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6876,
+              "lng": 77.1625
+            },
+            {
+              "lat": 28.696,
+              "lng": 77.1526
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1201.0,
+          "seconds": 124,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.696,
+              "lng": 77.1526
+            },
+            {
+              "lat": 28.698,
+              "lng": 77.1405
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 965.0,
+          "seconds": 111,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.698,
+              "lng": 77.1405
+            },
+            {
+              "lat": 28.7031,
+              "lng": 77.1325
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 822.0,
+          "seconds": 99,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.7031,
+              "lng": 77.1325
+            },
+            {
+              "lat": 28.7077,
+              "lng": 77.1259
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1292.0,
+          "seconds": 125,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.7077,
+              "lng": 77.1259
+            },
+            {
+              "lat": 28.7149,
+              "lng": 77.1155
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1042.0,
+          "seconds": 119,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.7149,
+              "lng": 77.1155
+            },
+            {
+              "lat": 28.7208,
+              "lng": 77.1072
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        }
+      ],
+      "dwell_seconds": 0,
+      "family_id": "dmrc-ln1"
+    },
+    {
+      "id": "dmrc-ln2",
+      "operator_id": "dmrc",
+      "name": "Yellow Line",
+      "color": "#f6d71a",
+      "station_ids": [
+        "dmrc-hcc",
+        "dmrc-ifoc",
+        "dmrc-mgro",
+        "dmrc-skrp",
+        "dmrc-ge",
+        "dmrc-ajg",
+        "dmrc-gtni",
+        "dmrc-sltp",
+        "dmrc-chtp",
+        "dmrc-qm",
+        "dmrc-sakt",
+        "dmrc-mvnr",
+        "dmrc-hks",
+        "dmrc-gnpk",
+        "dmrc-aiims",
+        "dmrc-ina",
+        "dmrc-jb",
+        "dmrc-lkm",
+        "dmrc-udb",
+        "dmrc-ctst",
+        "dmrc-ptck",
+        "dmrc-rck",
+        "dmrc-ndi",
+        "dmrc-cwbr",
+        "dmrc-chk",
+        "dmrc-kg",
+        "dmrc-cl",
+        "dmrc-vs",
+        "dmrc-vw",
+        "dmrc-gtbr",
+        "dmrc-mdtw",
+        "dmrc-azu",
+        "dmrc-ahnr",
+        "dmrc-jgpi",
+        "dmrc-bimr",
+        "dmrc-rise",
+        "dmrc-spbi"
+      ],
+      "segments": [
+        {
+          "metres": 1446.0,
+          "seconds": 138,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.4592,
+              "lng": 77.0725
+            },
+            {
+              "lat": 28.4722,
+              "lng": 77.0724
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1115.0,
+          "seconds": 147,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.4722,
+              "lng": 77.0724
+            },
+            {
+              "lat": 28.4796,
+              "lng": 77.0801
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1285.0,
+          "seconds": 133,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.4796,
+              "lng": 77.0801
+            },
+            {
+              "lat": 28.4813,
+              "lng": 77.0931
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 902.0,
+          "seconds": 112,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.4813,
+              "lng": 77.0931
+            },
+            {
+              "lat": 28.4819,
+              "lng": 77.1023
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 2309.0,
+          "seconds": 198,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.4819,
+              "lng": 77.1023
+            },
+            {
+              "lat": 28.4809,
+              "lng": 77.1259
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 2691.0,
+          "seconds": 194,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.4809,
+              "lng": 77.1259
+            },
+            {
+              "lat": 28.4938,
+              "lng": 77.1492
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1312.0,
+          "seconds": 127,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.4938,
+              "lng": 77.1492
+            },
+            {
+              "lat": 28.4991,
+              "lng": 77.1612
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1597.0,
+          "seconds": 156,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.4991,
+              "lng": 77.1612
+            },
+            {
+              "lat": 28.5068,
+              "lng": 77.175
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1296.0,
+          "seconds": 169,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.5068,
+              "lng": 77.175
+            },
+            {
+              "lat": 28.5129,
+              "lng": 77.1863
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1801.0,
+          "seconds": 165,
+          "zone": "transition",
+          "geometry": [
+            {
+              "lat": 28.5129,
+              "lng": 77.1863
+            },
+            {
+              "lat": 28.5211,
+              "lng": 77.2022
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 920.0,
+          "seconds": 141,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.5211,
+              "lng": 77.2022
+            },
+            {
+              "lat": 28.529,
+              "lng": 77.205
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1672.0,
+          "seconds": 160,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.529,
+              "lng": 77.205
+            },
+            {
+              "lat": 28.544,
+              "lng": 77.2062
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1758.0,
+          "seconds": 155,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.544,
+              "lng": 77.2062
+            },
+            {
+              "lat": 28.5598,
+              "lng": 77.2068
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 789.0,
+          "seconds": 135,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.5598,
+              "lng": 77.2068
+            },
+            {
+              "lat": 28.5668,
+              "lng": 77.2081
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 858.0,
+          "seconds": 109,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.5668,
+              "lng": 77.2081
+            },
+            {
+              "lat": 28.5744,
+              "lng": 77.2096
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1310.0,
+          "seconds": 133,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.5744,
+              "lng": 77.2096
+            },
+            {
+              "lat": 28.5859,
+              "lng": 77.2125
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1318.0,
+          "seconds": 137,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.5859,
+              "lng": 77.2125
+            },
+            {
+              "lat": 28.5977,
+              "lng": 77.2112
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1482.0,
+          "seconds": 140,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.5977,
+              "lng": 77.2112
+            },
+            {
+              "lat": 28.611,
+              "lng": 77.2122
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 467.0,
+          "seconds": 104,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.611,
+              "lng": 77.2122
+            },
+            {
+              "lat": 28.6152,
+              "lng": 77.2123
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 926.0,
+          "seconds": 115,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.6152,
+              "lng": 77.2123
+            },
+            {
+              "lat": 28.6233,
+              "lng": 77.2145
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1180.0,
+          "seconds": 136,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.6233,
+              "lng": 77.2145
+            },
+            {
+              "lat": 28.633,
+              "lng": 77.2194
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1080.0,
+          "seconds": 146,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.633,
+              "lng": 77.2194
+            },
+            {
+              "lat": 28.6427,
+              "lng": 77.2199
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 922.0,
+          "seconds": 102,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.6427,
+              "lng": 77.2199
+            },
+            {
+              "lat": 28.6488,
+              "lng": 77.2263
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1182.0,
+          "seconds": 133,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.6488,
+              "lng": 77.2263
+            },
+            {
+              "lat": 28.6588,
+              "lng": 77.2304
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 991.0,
+          "seconds": 136,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.6588,
+              "lng": 77.2304
+            },
+            {
+              "lat": 28.6675,
+              "lng": 77.2282
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1139.0,
+          "seconds": 141,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.6675,
+              "lng": 77.2282
+            },
+            {
+              "lat": 28.6773,
+              "lng": 77.2248
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1209.0,
+          "seconds": 134,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.6773,
+              "lng": 77.2248
+            },
+            {
+              "lat": 28.6878,
+              "lng": 77.2216
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1076.0,
+          "seconds": 132,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.6878,
+              "lng": 77.2216
+            },
+            {
+              "lat": 28.6952,
+              "lng": 77.2145
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 911.0,
+          "seconds": 121,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.6952,
+              "lng": 77.2145
+            },
+            {
+              "lat": 28.6984,
+              "lng": 77.2059
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1291.0,
+          "seconds": 136,
+          "zone": "transition",
+          "geometry": [
+            {
+              "lat": 28.6984,
+              "lng": 77.2059
+            },
+            {
+              "lat": 28.7029,
+              "lng": 77.1937
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1347.0,
+          "seconds": 133,
+          "zone": "transition",
+          "geometry": [
+            {
+              "lat": 28.7029,
+              "lng": 77.1937
+            },
+            {
+              "lat": 28.707,
+              "lng": 77.1807
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1577.0,
+          "seconds": 133,
+          "zone": "transition",
+          "geometry": [
+            {
+              "lat": 28.707,
+              "lng": 77.1807
+            },
+            {
+              "lat": 28.7144,
+              "lng": 77.1669
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1690.0,
+          "seconds": 122,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.7144,
+              "lng": 77.1669
+            },
+            {
+              "lat": 28.7296,
+              "lng": 77.1666
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1699.0,
+          "seconds": 130,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.7296,
+              "lng": 77.1666
+            },
+            {
+              "lat": 28.7299849889464,
+              "lng": 77.1491824510158
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1501.0,
+          "seconds": 175,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.7299849889464,
+              "lng": 77.1491824510158
+            },
+            {
+              "lat": 28.7327,
+              "lng": 77.1341
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1385.0,
+          "seconds": 124,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.7327,
+              "lng": 77.1341
+            },
+            {
+              "lat": 28.7446,
+              "lng": 77.1383
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        }
+      ],
+      "dwell_seconds": 0,
+      "family_id": "dmrc-ln2"
+    },
+    {
+      "id": "dmrc-ln3",
+      "operator_id": "dmrc",
+      "name": "Blue Line",
+      "color": "#3b76c0",
+      "station_ids": [
+        "dmrc-dsto",
+        "dmrc-dset",
+        "dmrc-dsn",
+        "dmrc-dst",
+        "dmrc-dse",
+        "dmrc-dsw",
+        "dmrc-dstn",
+        "dmrc-dsfn",
+        "dmrc-dw",
+        "dmrc-dm",
+        "dmrc-nwd",
+        "dmrc-unw",
+        "dmrc-une",
+        "dmrc-jpw",
+        "dmrc-jpe",
+        "dmrc-tn",
+        "dmrc-sn",
+        "dmrc-tg",
+        "dmrc-rg",
+        "dmrc-rn",
+        "dmrc-mn",
+        "dmrc-knr",
+        "dmrc-sp",
+        "dmrc-pn",
+        "dmrc-rp",
+        "dmrc-kb",
+        "dmrc-jw",
+        "dmrc-rkam",
+        "dmrc-rck",
+        "dmrc-brkr",
+        "dmrc-mdhs",
+        "dmrc-ptmd",
+        "dmrc-idpt",
+        "dmrc-yb",
+        "dmrc-asdm",
+        "dmrc-mvp1",
+        "dmrc-mve",
+        "dmrc-nagr",
+        "dmrc-nsft",
+        "dmrc-nsst",
+        "dmrc-nset",
+        "dmrc-bcgn",
+        "dmrc-gec",
+        "dmrc-ncc",
+        "dmrc-stfn",
+        "dmrc-sftn",
+        "dmrc-sson",
+        "dmrc-sfnn",
+        "dmrc-sstn",
+        "dmrc-necc"
+      ],
+      "segments": [
+        {
+          "metres": 1730.0,
+          "seconds": 181,
+          "zone": "transition",
+          "geometry": [
+            {
+              "lat": 28.5522,
+              "lng": 77.0583
+            },
+            {
+              "lat": 28.5657,
+              "lng": 77.0671
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 972.0,
+          "seconds": 118,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.5657,
+              "lng": 77.0671
+            },
+            {
+              "lat": 28.5743,
+              "lng": 77.0653
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1073.0,
+          "seconds": 125,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.5743,
+              "lng": 77.0653
+            },
+            {
+              "lat": 28.5811,
+              "lng": 77.0575
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 963.0,
+          "seconds": 120,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.5811,
+              "lng": 77.0575
+            },
+            {
+              "lat": 28.5864,
+              "lng": 77.0497
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1278.0,
+          "seconds": 123,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.5864,
+              "lng": 77.0497
+            },
+            {
+              "lat": 28.5955,
+              "lng": 77.0417
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 842.0,
+          "seconds": 122,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.5955,
+              "lng": 77.0417
+            },
+            {
+              "lat": 28.5972,
+              "lng": 77.0333
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 912.0,
+          "seconds": 116,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.5972,
+              "lng": 77.0333
+            },
+            {
+              "lat": 28.6022,
+              "lng": 77.0259
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1446.0,
+          "seconds": 145,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6022,
+              "lng": 77.0259
+            },
+            {
+              "lat": 28.6149,
+              "lng": 77.0227
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1953.0,
+          "seconds": 148,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6149,
+              "lng": 77.0227
+            },
+            {
+              "lat": 28.6218,
+              "lng": 77.0411
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 420.0,
+          "seconds": 130,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6218,
+              "lng": 77.0411
+            },
+            {
+              "lat": 28.6202,
+              "lng": 77.045
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1069.0,
+          "seconds": 122,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6202,
+              "lng": 77.045
+            },
+            {
+              "lat": 28.6218,
+              "lng": 77.0558
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 985.0,
+          "seconds": 118,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6218,
+              "lng": 77.0558
+            },
+            {
+              "lat": 28.6248,
+              "lng": 77.0653
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1327.0,
+          "seconds": 145,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6248,
+              "lng": 77.0653
+            },
+            {
+              "lat": 28.6295,
+              "lng": 77.0778
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 898.0,
+          "seconds": 117,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6295,
+              "lng": 77.0778
+            },
+            {
+              "lat": 28.6328,
+              "lng": 77.0862
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1090.0,
+          "seconds": 121,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6328,
+              "lng": 77.0862
+            },
+            {
+              "lat": 28.6366,
+              "lng": 77.0965
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 922.0,
+          "seconds": 115,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6366,
+              "lng": 77.0965
+            },
+            {
+              "lat": 28.6404,
+              "lng": 77.1049
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 867.0,
+          "seconds": 110,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6404,
+              "lng": 77.1049
+            },
+            {
+              "lat": 28.6438,
+              "lng": 77.1129
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1118.0,
+          "seconds": 131,
+          "zone": "transition",
+          "geometry": [
+            {
+              "lat": 28.6438,
+              "lng": 77.1129
+            },
+            {
+              "lat": 28.649,
+              "lng": 77.1227
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 952.0,
+          "seconds": 119,
+          "zone": "transition",
+          "geometry": [
+            {
+              "lat": 28.649,
+              "lng": 77.1227
+            },
+            {
+              "lat": 28.6527,
+              "lng": 77.1315
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1236.0,
+          "seconds": 131,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6527,
+              "lng": 77.1315
+            },
+            {
+              "lat": 28.6579,
+              "lng": 77.1427
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 827.0,
+          "seconds": 123,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6579,
+              "lng": 77.1427
+            },
+            {
+              "lat": 28.6557,
+              "lng": 77.1508
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 854.0,
+          "seconds": 116,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6557,
+              "lng": 77.1508
+            },
+            {
+              "lat": 28.6516,
+              "lng": 77.1582
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1308.0,
+          "seconds": 136,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6516,
+              "lng": 77.1582
+            },
+            {
+              "lat": 28.645,
+              "lng": 77.1693
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 912.0,
+          "seconds": 118,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.645,
+              "lng": 77.1693
+            },
+            {
+              "lat": 28.6425,
+              "lng": 77.1782
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1019.0,
+          "seconds": 123,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6425,
+              "lng": 77.1782
+            },
+            {
+              "lat": 28.644,
+              "lng": 77.1885
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1113.0,
+          "seconds": 132,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.644,
+              "lng": 77.1885
+            },
+            {
+              "lat": 28.6443,
+              "lng": 77.1999
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1021.0,
+          "seconds": 128,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6443,
+              "lng": 77.1999
+            },
+            {
+              "lat": 28.6392,
+              "lng": 77.2086
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1259.0,
+          "seconds": 147,
+          "zone": "transition",
+          "geometry": [
+            {
+              "lat": 28.6392,
+              "lng": 77.2086
+            },
+            {
+              "lat": 28.633,
+              "lng": 77.2194
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 605.0,
+          "seconds": 108,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.633,
+              "lng": 77.2194
+            },
+            {
+              "lat": 28.6299,
+              "lng": 77.2245
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1055.0,
+          "seconds": 128,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.6299,
+              "lng": 77.2245
+            },
+            {
+              "lat": 28.6259,
+              "lng": 77.2343
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 869.0,
+          "seconds": 117,
+          "zone": "transition",
+          "geometry": [
+            {
+              "lat": 28.6259,
+              "lng": 77.2343
+            },
+            {
+              "lat": 28.6233,
+              "lng": 77.2427
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 773.0,
+          "seconds": 111,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6233,
+              "lng": 77.2427
+            },
+            {
+              "lat": 28.6206,
+              "lng": 77.25
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1773.0,
+          "seconds": 177,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6206,
+              "lng": 77.25
+            },
+            {
+              "lat": 28.6233,
+              "lng": 77.2679
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1268.0,
+          "seconds": 167,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6233,
+              "lng": 77.2679
+            },
+            {
+              "lat": 28.618,
+              "lng": 77.2794
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1829.0,
+          "seconds": 175,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.618,
+              "lng": 77.2794
+            },
+            {
+              "lat": 28.6042,
+              "lng": 77.2896
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1362.0,
+          "seconds": 135,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6042,
+              "lng": 77.2896
+            },
+            {
+              "lat": 28.5928,
+              "lng": 77.2947
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 826.0,
+          "seconds": 122,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.5928,
+              "lng": 77.2947
+            },
+            {
+              "lat": 28.5892,
+              "lng": 77.3021
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1034.0,
+          "seconds": 135,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.5892,
+              "lng": 77.3021
+            },
+            {
+              "lat": 28.5851,
+              "lng": 77.3116
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 909.0,
+          "seconds": 119,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.5851,
+              "lng": 77.3116
+            },
+            {
+              "lat": 28.5787,
+              "lng": 77.3174
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1229.0,
+          "seconds": 137,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.5787,
+              "lng": 77.3174
+            },
+            {
+              "lat": 28.5708,
+              "lng": 77.3262
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1094.0,
+          "seconds": 134,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.5708,
+              "lng": 77.3262
+            },
+            {
+              "lat": 28.564,
+              "lng": 77.3343
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1197.0,
+          "seconds": 156,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.564,
+              "lng": 77.3343
+            },
+            {
+              "lat": 28.5672,
+              "lng": 77.346
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1284.0,
+          "seconds": 128,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.5672,
+              "lng": 77.346
+            },
+            {
+              "lat": 28.5747,
+              "lng": 77.356
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 947.0,
+          "seconds": 121,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.5747,
+              "lng": 77.356
+            },
+            {
+              "lat": 28.5801,
+              "lng": 77.3635
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1168.0,
+          "seconds": 129,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.5801,
+              "lng": 77.3635
+            },
+            {
+              "lat": 28.5867,
+              "lng": 77.3728
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1240.0,
+          "seconds": 149,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.5867,
+              "lng": 77.3728
+            },
+            {
+              "lat": 28.5976,
+              "lng": 77.3701
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1021.0,
+          "seconds": 116,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.5976,
+              "lng": 77.3701
+            },
+            {
+              "lat": 28.6064,
+              "lng": 77.3731
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1180.0,
+          "seconds": 130,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6064,
+              "lng": 77.3731
+            },
+            {
+              "lat": 28.617,
+              "lng": 77.3736
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1219.0,
+          "seconds": 139,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.617,
+              "lng": 77.3736
+            },
+            {
+              "lat": 28.6279,
+              "lng": 77.3749
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        }
+      ],
+      "dwell_seconds": 0,
+      "family_id": "dmrc-ln3"
+    },
+    {
+      "id": "dmrc-ln4",
+      "operator_id": "dmrc",
+      "name": "Blue Line · Vaishali branch",
+      "color": "#3b76c0",
+      "station_ids": [
+        "dmrc-vasi",
+        "dmrc-kshi",
+        "dmrc-avit",
+        "dmrc-kkda",
+        "dmrc-ptvr",
+        "dmrc-nv",
+        "dmrc-ln",
+        "dmrc-yb"
+      ],
+      "segments": [
+        {
+          "metres": 1568.0,
+          "seconds": 137,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6498,
+              "lng": 77.3397
+            },
+            {
+              "lat": 28.6455,
+              "lng": 77.3244
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 846.0,
+          "seconds": 119,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6455,
+              "lng": 77.3244
+            },
+            {
+              "lat": 28.647,
+              "lng": 77.3159
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1019.0,
+          "seconds": 135,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.647,
+              "lng": 77.3159
+            },
+            {
+              "lat": 28.6485,
+              "lng": 77.3056
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1221.0,
+          "seconds": 121,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6485,
+              "lng": 77.3056
+            },
+            {
+              "lat": 28.6419,
+              "lng": 77.2956
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1042.0,
+          "seconds": 135,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6419,
+              "lng": 77.2956
+            },
+            {
+              "lat": 28.6366,
+              "lng": 77.2868
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1149.0,
+          "seconds": 176,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6366,
+              "lng": 77.2868
+            },
+            {
+              "lat": 28.6305,
+              "lng": 77.2773
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1218.0,
+          "seconds": 168,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6305,
+              "lng": 77.2773
+            },
+            {
+              "lat": 28.6233,
+              "lng": 77.2679
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        }
+      ],
+      "dwell_seconds": 0,
+      "family_id": "dmrc-ln3"
+    },
+    {
+      "id": "dmrc-ln5",
+      "operator_id": "dmrc",
+      "name": "Green Line",
+      "color": "#54ab55",
+      "station_ids": [
+        "dmrc-cipk",
+        "dmrc-buss",
+        "dmrc-miee",
+        "dmrc-tkbr",
+        "dmrc-tklm",
+        "dmrc-ghem",
+        "dmrc-miaa",
+        "dmrc-mudk",
+        "dmrc-rdpk",
+        "dmrc-nrsn",
+        "dmrc-nnoi",
+        "dmrc-smsm",
+        "dmrc-unrg",
+        "dmrc-pagi",
+        "dmrc-pvw",
+        "dmrc-pve",
+        "dmrc-mapr",
+        "dmrc-shvp",
+        "dmrc-pbgw",
+        "dmrc-pbga",
+        "dmrc-apmn",
+        "dmrc-srsm",
+        "dmrc-knr"
+      ],
+      "segments": [
+        {
+          "metres": 1771.0,
+          "seconds": 168,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6973662,
+              "lng": 76.9187353
+            },
+            {
+              "lat": 28.6906885,
+              "lng": 76.9352146
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1350.0,
+          "seconds": 146,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6906885,
+              "lng": 76.9352146
+            },
+            {
+              "lat": 28.6892418,
+              "lng": 76.9489583
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1287.0,
+          "seconds": 126,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6892418,
+              "lng": 76.9489583
+            },
+            {
+              "lat": 28.688233,
+              "lng": 76.9620993
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1275.0,
+          "seconds": 130,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.688233,
+              "lng": 76.9620993
+            },
+            {
+              "lat": 28.68688,
+              "lng": 76.9750813
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1949.0,
+          "seconds": 155,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.68688,
+              "lng": 76.9750813
+            },
+            {
+              "lat": 28.6853835,
+              "lng": 76.9949917
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1949.0,
+          "seconds": 158,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6853835,
+              "lng": 76.9949917
+            },
+            {
+              "lat": 28.6822749,
+              "lng": 77.0146522
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1317.0,
+          "seconds": 142,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6822749,
+              "lng": 77.0146522
+            },
+            {
+              "lat": 28.68239,
+              "lng": 77.0281513
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1333.0,
+          "seconds": 127,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.68239,
+              "lng": 77.0281513
+            },
+            {
+              "lat": 28.6822794,
+              "lng": 77.0418183
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1191.0,
+          "seconds": 121,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6822794,
+              "lng": 77.0418183
+            },
+            {
+              "lat": 28.682133,
+              "lng": 77.0540313
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 747.0,
+          "seconds": 102,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.682133,
+              "lng": 77.0540313
+            },
+            {
+              "lat": 28.681984,
+              "lng": 77.0616903
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 984.0,
+          "seconds": 107,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.681984,
+              "lng": 77.0616903
+            },
+            {
+              "lat": 28.68182,
+              "lng": 77.0717713
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 690.0,
+          "seconds": 91,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.68182,
+              "lng": 77.0717713
+            },
+            {
+              "lat": 28.6810606,
+              "lng": 77.0787957
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1202.0,
+          "seconds": 114,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6810606,
+              "lng": 77.0787957
+            },
+            {
+              "lat": 28.6798828,
+              "lng": 77.0910404
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 831.0,
+          "seconds": 107,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6798828,
+              "lng": 77.0910404
+            },
+            {
+              "lat": 28.678829,
+              "lng": 77.0994732
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1053.0,
+          "seconds": 99,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.678829,
+              "lng": 77.0994732
+            },
+            {
+              "lat": 28.6773312,
+              "lng": 77.1101289
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 732.0,
+          "seconds": 102,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6773312,
+              "lng": 77.1101289
+            },
+            {
+              "lat": 28.67634,
+              "lng": 77.1175513
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1069.0,
+          "seconds": 112,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.67634,
+              "lng": 77.1175513
+            },
+            {
+              "lat": 28.674939,
+              "lng": 77.1283933
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 819.0,
+          "seconds": 146,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.674939,
+              "lng": 77.1283933
+            },
+            {
+              "lat": 28.6727751,
+              "lng": 77.136418
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 727.0,
+          "seconds": 140,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6727751,
+              "lng": 77.136418
+            },
+            {
+              "lat": 28.6729291,
+              "lng": 77.1438705
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1116.0,
+          "seconds": 116,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6729291,
+              "lng": 77.1438705
+            },
+            {
+              "lat": 28.6715791,
+              "lng": 77.1552039
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1051.0,
+          "seconds": 185,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6715791,
+              "lng": 77.1552039
+            },
+            {
+              "lat": 28.66213,
+              "lng": 77.1554713
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 848.0,
+          "seconds": 124,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.66213,
+              "lng": 77.1554713
+            },
+            {
+              "lat": 28.6557,
+              "lng": 77.1508
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        }
+      ],
+      "dwell_seconds": 0,
+      "family_id": "dmrc-ln5"
+    },
+    {
+      "id": "dmrc-ln5-branch-1",
+      "operator_id": "dmrc",
+      "name": "Green Line · Inderlok branch",
+      "color": "#54ab55",
+      "station_ids": [
+        "dmrc-apmn",
+        "dmrc-ilok"
+      ],
+      "segments": [
+        {
+          "metres": 1490.0,
+          "seconds": 193,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6715791,
+              "lng": 77.1552039
+            },
+            {
+              "lat": 28.6736,
+              "lng": 77.1703
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        }
+      ],
+      "dwell_seconds": 0,
+      "family_id": "dmrc-ln5"
+    },
+    {
+      "id": "dmrc-ln6",
+      "operator_id": "dmrc",
+      "name": "Violet Line",
+      "color": "#8115ff",
+      "station_ids": [
+        "dmrc-bvhm",
+        "dmrc-ncbc",
+        "dmrc-ecmj",
+        "dmrc-bach",
+        "dmrc-ncaj",
+        "dmrc-ofdb",
+        "dmrc-bkmr",
+        "dmrc-stta",
+        "dmrc-mmjr",
+        "dmrc-nhpc",
+        "dmrc-srai",
+        "dmrc-bapb",
+        "dmrc-tkds",
+        "dmrc-mete",
+        "dmrc-stvr",
+        "dmrc-jla",
+        "dmrc-hnok",
+        "dmrc-gdpi",
+        "dmrc-kjmd",
+        "dmrc-np",
+        "dmrc-khcy",
+        "dmrc-mlcd",
+        "dmrc-ljpn",
+        "dmrc-jgpa",
+        "dmrc-jlns",
+        "dmrc-km",
+        "dmrc-ctst",
+        "dmrc-jnph",
+        "dmrc-mdhs",
+        "dmrc-ito",
+        "dmrc-dlig",
+        "dmrc-jamd",
+        "dmrc-llqa",
+        "dmrc-kg"
+      ],
+      "segments": [
+        {
+          "metres": 1675.0,
+          "seconds": 210,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.3397812,
+              "lng": 77.316603
+            },
+            {
+              "lat": 28.354673,
+              "lng": 77.3140293
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1724.0,
+          "seconds": 190,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.354673,
+              "lng": 77.3140293
+            },
+            {
+              "lat": 28.37016,
+              "lng": 77.31494
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1699.0,
+          "seconds": 140,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.37016,
+              "lng": 77.31494
+            },
+            {
+              "lat": 28.385109,
+              "lng": 77.3113603
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1400.0,
+          "seconds": 130,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.385109,
+              "lng": 77.3113603
+            },
+            {
+              "lat": 28.3976537,
+              "lng": 77.3101607
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1403.0,
+          "seconds": 134,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.3976537,
+              "lng": 77.3101607
+            },
+            {
+              "lat": 28.4102041,
+              "lng": 77.3086392
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1404.0,
+          "seconds": 134,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.4102041,
+              "lng": 77.3086392
+            },
+            {
+              "lat": 28.4228115,
+              "lng": 77.3079462
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1735.0,
+          "seconds": 144,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.4228115,
+              "lng": 77.3079462
+            },
+            {
+              "lat": 28.43838,
+              "lng": 77.3067493
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1132.0,
+          "seconds": 122,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.43838,
+              "lng": 77.3067493
+            },
+            {
+              "lat": 28.4484907,
+              "lng": 77.3054333
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1023.0,
+          "seconds": 115,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.4484907,
+              "lng": 77.3054333
+            },
+            {
+              "lat": 28.4576694,
+              "lng": 77.3047513
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 2274.0,
+          "seconds": 181,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.4576694,
+              "lng": 77.3047513
+            },
+            {
+              "lat": 28.4780481,
+              "lng": 77.3028175
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1702.0,
+          "seconds": 161,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.4780481,
+              "lng": 77.3028175
+            },
+            {
+              "lat": 28.49325,
+              "lng": 77.3007813
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1186.0,
+          "seconds": 137,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.49325,
+              "lng": 77.3007813
+            },
+            {
+              "lat": 28.5031672,
+              "lng": 77.2963205
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1390.0,
+          "seconds": 186,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.5031672,
+              "lng": 77.2963205
+            },
+            {
+              "lat": 28.514454,
+              "lng": 77.2902056
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1712.0,
+          "seconds": 131,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.514454,
+              "lng": 77.2902056
+            },
+            {
+              "lat": 28.5294337,
+              "lng": 77.2861724
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1094.0,
+          "seconds": 132,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.5294337,
+              "lng": 77.2861724
+            },
+            {
+              "lat": 28.5382066,
+              "lng": 77.2811108
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 945.0,
+          "seconds": 133,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.5382066,
+              "lng": 77.2811108
+            },
+            {
+              "lat": 28.5429658,
+              "lng": 77.273094
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1100.0,
+          "seconds": 157,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.5429658,
+              "lng": 77.273094
+            },
+            {
+              "lat": 28.5446117,
+              "lng": 77.261992
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 724.0,
+          "seconds": 114,
+          "zone": "transition",
+          "geometry": [
+            {
+              "lat": 28.5446117,
+              "lng": 77.261992
+            },
+            {
+              "lat": 28.54945,
+              "lng": 77.2570313
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 660.0,
+          "seconds": 115,
+          "zone": "transition",
+          "geometry": [
+            {
+              "lat": 28.54945,
+              "lng": 77.2570313
+            },
+            {
+              "lat": 28.5514171,
+              "lng": 77.2506607
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1186.0,
+          "seconds": 130,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.5514171,
+              "lng": 77.2506607
+            },
+            {
+              "lat": 28.55554,
+              "lng": 77.2394585
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1320.0,
+          "seconds": 140,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.55554,
+              "lng": 77.2394585
+            },
+            {
+              "lat": 28.5647817,
+              "lng": 77.2309781
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 724.0,
+          "seconds": 119,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.5647817,
+              "lng": 77.2309781
+            },
+            {
+              "lat": 28.5706249,
+              "lng": 77.2342561
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1467.0,
+          "seconds": 155,
+          "zone": "transition",
+          "geometry": [
+            {
+              "lat": 28.5706249,
+              "lng": 77.2342561
+            },
+            {
+              "lat": 28.583698,
+              "lng": 77.2362473
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 639.0,
+          "seconds": 120,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.583698,
+              "lng": 77.2362473
+            },
+            {
+              "lat": 28.587146,
+              "lng": 77.2310163
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1637.0,
+          "seconds": 153,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.587146,
+              "lng": 77.2310163
+            },
+            {
+              "lat": 28.6009531,
+              "lng": 77.2252085
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 2024.0,
+          "seconds": 214,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.6009531,
+              "lng": 77.2252085
+            },
+            {
+              "lat": 28.6152,
+              "lng": 77.2123
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1188.0,
+          "seconds": 82,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.6152,
+              "lng": 77.2123
+            },
+            {
+              "lat": 28.625061,
+              "lng": 77.2169953
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1692.0,
+          "seconds": 200,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.625061,
+              "lng": 77.2169953
+            },
+            {
+              "lat": 28.6259,
+              "lng": 77.2343
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 616.0,
+          "seconds": 103,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.6259,
+              "lng": 77.2343
+            },
+            {
+              "lat": 28.6278305,
+              "lng": 77.240214
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1368.0,
+          "seconds": 118,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.6278305,
+              "lng": 77.240214
+            },
+            {
+              "lat": 28.640061,
+              "lng": 77.2386843
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1181.0,
+          "seconds": 139,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.640061,
+              "lng": 77.2386843
+            },
+            {
+              "lat": 28.6504603,
+              "lng": 77.2362374
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 824.0,
+          "seconds": 94,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.6504603,
+              "lng": 77.2362374
+            },
+            {
+              "lat": 28.6577564,
+              "lng": 77.2347368
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1257.0,
+          "seconds": 168,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.6577564,
+              "lng": 77.2347368
+            },
+            {
+              "lat": 28.6675,
+              "lng": 77.2282
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        }
+      ],
+      "dwell_seconds": 0,
+      "family_id": "dmrc-ln6"
+    },
+    {
+      "id": "dmrc-ln7",
+      "operator_id": "dmrc",
+      "name": "Pink Line",
+      "color": "#ed91c9",
+      "station_ids": [
+        "dmrc-mupr",
+        "dmrc-jfrb",
+        "dmrc-wc",
+        "dmrc-eanr",
+        "dmrc-khna",
+        "dmrc-kkdc",
+        "dmrc-kkda",
+        "dmrc-avit",
+        "dmrc-ipe",
+        "dmrc-vnnr",
+        "dmrc-vent",
+        "dmrc-tkpr",
+        "dmrc-mvpo",
+        "dmrc-mvp1",
+        "dmrc-nizm",
+        "dmrc-ahrm",
+        "dmrc-vnpr",
+        "dmrc-ljpn",
+        "dmrc-soen",
+        "dmrc-ina",
+        "dmrc-soji",
+        "dmrc-bkcp",
+        "dmrc-svmb",
+        "dmrc-ddsc",
+        "dmrc-dlic",
+        "dmrc-navr",
+        "dmrc-mypi",
+        "dmrc-rg",
+        "dmrc-esih",
+        "dmrc-pbgw",
+        "dmrc-sakp",
+        "dmrc-nshp",
+        "dmrc-smbg",
+        "dmrc-azu",
+        "dmrc-mkpr",
+        "dmrc-buri",
+        "dmrc-jrmr",
+        "dmrc-jpve",
+        "dmrc-soog",
+        "dmrc-snvh",
+        "dmrc-kjks",
+        "dmrc-bjpu",
+        "dmrc-ymvr"
+      ],
+      "segments": [
+        {
+          "metres": 1142.0,
+          "seconds": 137,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6921031,
+              "lng": 77.2774233
+            },
+            {
+              "lat": 28.6827585,
+              "lng": 77.2725587
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1318.0,
+          "seconds": 186,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6827585,
+              "lng": 77.2725587
+            },
+            {
+              "lat": 28.6718,
+              "lng": 77.2777
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 915.0,
+          "seconds": 145,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6718,
+              "lng": 77.2777
+            },
+            {
+              "lat": 28.66479,
+              "lng": 77.2826113
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 992.0,
+          "seconds": 100,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.66479,
+              "lng": 77.2826113
+            },
+            {
+              "lat": 28.6575316,
+              "lng": 77.2885172
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 2071.0,
+          "seconds": 107,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6575316,
+              "lng": 77.2885172
+            },
+            {
+              "lat": 28.6450398,
+              "lng": 77.3042615
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 406.0,
+          "seconds": 138,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6450398,
+              "lng": 77.3042615
+            },
+            {
+              "lat": 28.6485,
+              "lng": 77.3056
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1019.0,
+          "seconds": 135,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6485,
+              "lng": 77.3056
+            },
+            {
+              "lat": 28.647,
+              "lng": 77.3159
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1821.0,
+          "seconds": 237,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.647,
+              "lng": 77.3159
+            },
+            {
+              "lat": 28.6319356,
+              "lng": 77.3085679
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1002.0,
+          "seconds": 174,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6319356,
+              "lng": 77.3085679
+            },
+            {
+              "lat": 28.624877,
+              "lng": 77.3021833
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 502.0,
+          "seconds": 140,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.624877,
+              "lng": 77.3021833
+            },
+            {
+              "lat": 28.620363,
+              "lng": 77.3023292
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 937.0,
+          "seconds": 132,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.620363,
+              "lng": 77.3023292
+            },
+            {
+              "lat": 28.6134317,
+              "lng": 77.3077957
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1391.0,
+          "seconds": 360,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6134317,
+              "lng": 77.3077957
+            },
+            {
+              "lat": 28.6057944,
+              "lng": 77.2965148
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 698.0,
+          "seconds": 98,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6057944,
+              "lng": 77.2965148
+            },
+            {
+              "lat": 28.6042,
+              "lng": 77.2896
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 3764.0,
+          "seconds": 293,
+          "zone": "transition",
+          "geometry": [
+            {
+              "lat": 28.6042,
+              "lng": 77.2896
+            },
+            {
+              "lat": 28.58936,
+              "lng": 77.2549413
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1878.0,
+          "seconds": 171,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.58936,
+              "lng": 77.2549413
+            },
+            {
+              "lat": 28.5727649,
+              "lng": 77.258494
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1257.0,
+          "seconds": 179,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.5727649,
+              "lng": 77.258494
+            },
+            {
+              "lat": 28.5655297,
+              "lng": 77.2485991
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1511.0,
+          "seconds": 174,
+          "zone": "transition",
+          "geometry": [
+            {
+              "lat": 28.5655297,
+              "lng": 77.2485991
+            },
+            {
+              "lat": 28.5706249,
+              "lng": 77.2342561
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1602.0,
+          "seconds": 167,
+          "zone": "transition",
+          "geometry": [
+            {
+              "lat": 28.5706249,
+              "lng": 77.2342561
+            },
+            {
+              "lat": 28.5686386,
+              "lng": 77.2180074
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1041.0,
+          "seconds": 138,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.5686386,
+              "lng": 77.2180074
+            },
+            {
+              "lat": 28.5744,
+              "lng": 77.2096
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1377.0,
+          "seconds": 120,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.5744,
+              "lng": 77.2096
+            },
+            {
+              "lat": 28.5757221,
+              "lng": 77.1955806
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1244.0,
+          "seconds": 133,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.5757221,
+              "lng": 77.1955806
+            },
+            {
+              "lat": 28.5703764,
+              "lng": 77.1843847
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1392.0,
+          "seconds": 156,
+          "zone": "transition",
+          "geometry": [
+            {
+              "lat": 28.5703764,
+              "lng": 77.1843847
+            },
+            {
+              "lat": 28.578504,
+              "lng": 77.1735373
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1353.0,
+          "seconds": 153,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.578504,
+              "lng": 77.1735373
+            },
+            {
+              "lat": 28.58938,
+              "lng": 77.1673313
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 3561.0,
+          "seconds": 295,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.58938,
+              "lng": 77.1673313
+            },
+            {
+              "lat": 28.6086915,
+              "lng": 77.1382338
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1759.0,
+          "seconds": 182,
+          "zone": "transition",
+          "geometry": [
+            {
+              "lat": 28.6086915,
+              "lng": 77.1382338
+            },
+            {
+              "lat": 28.624125,
+              "lng": 77.1342993
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1586.0,
+          "seconds": 180,
+          "zone": "transition",
+          "geometry": [
+            {
+              "lat": 28.624125,
+              "lng": 77.1342993
+            },
+            {
+              "lat": 28.637099,
+              "lng": 77.1275523
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1406.0,
+          "seconds": 173,
+          "zone": "transition",
+          "geometry": [
+            {
+              "lat": 28.637099,
+              "lng": 77.1275523
+            },
+            {
+              "lat": 28.649,
+              "lng": 77.1227
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1059.0,
+          "seconds": 116,
+          "zone": "transition",
+          "geometry": [
+            {
+              "lat": 28.649,
+              "lng": 77.1227
+            },
+            {
+              "lat": 28.6582712,
+              "lng": 77.1252019
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1949.0,
+          "seconds": 175,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6582712,
+              "lng": 77.1252019
+            },
+            {
+              "lat": 28.6727751,
+              "lng": 77.136418
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1801.0,
+          "seconds": 196,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6727751,
+              "lng": 77.136418
+            },
+            {
+              "lat": 28.6857703,
+              "lng": 77.1474327
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1244.0,
+          "seconds": 158,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6857703,
+              "lng": 77.1474327
+            },
+            {
+              "lat": 28.696,
+              "lng": 77.1526
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1181.0,
+          "seconds": 151,
+          "zone": "transition",
+          "geometry": [
+            {
+              "lat": 28.696,
+              "lng": 77.1526
+            },
+            {
+              "lat": 28.702018,
+              "lng": 77.1625815
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1852.0,
+          "seconds": 161,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.702018,
+              "lng": 77.1625815
+            },
+            {
+              "lat": 28.707,
+              "lng": 77.1807
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1909.0,
+          "seconds": 230,
+          "zone": "transition",
+          "geometry": [
+            {
+              "lat": 28.707,
+              "lng": 77.1807
+            },
+            {
+              "lat": 28.724167,
+              "lng": 77.1805273
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1954.0,
+          "seconds": 2,
+          "zone": "transition",
+          "geometry": [
+            {
+              "lat": 28.724167,
+              "lng": 77.1805273
+            },
+            {
+              "lat": 28.72976,
+              "lng": 77.19952
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1682.0,
+          "seconds": 126,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.72976,
+              "lng": 77.19952
+            },
+            {
+              "lat": 28.72501,
+              "lng": 77.2159
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 888.0,
+          "seconds": 126,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.72501,
+              "lng": 77.2159
+            },
+            {
+              "lat": 28.721209,
+              "lng": 77.223913
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1354.0,
+          "seconds": 126,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.721209,
+              "lng": 77.223913
+            },
+            {
+              "lat": 28.710449573671905,
+              "lng": 77.23041226878645
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1164.0,
+          "seconds": 126,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.710449573671905,
+              "lng": 77.23041226878645
+            },
+            {
+              "lat": 28.708431,
+              "lng": 77.242124
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1256.0,
+          "seconds": 126,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.708431,
+              "lng": 77.242124
+            },
+            {
+              "lat": 28.70521,
+              "lng": 77.25447
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 788.0,
+          "seconds": 126,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.70521,
+              "lng": 77.25447
+            },
+            {
+              "lat": 28.703581,
+              "lng": 77.262331
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1470.0,
+          "seconds": 126,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.703581,
+              "lng": 77.262331
+            },
+            {
+              "lat": 28.702367,
+              "lng": 77.277337
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        }
+      ],
+      "dwell_seconds": 0,
+      "family_id": "dmrc-ln7"
+    },
+    {
+      "id": "dmrc-ln7extn",
+      "operator_id": "dmrc",
+      "name": "Pink (Ext.)",
+      "color": "#ed91c9",
+      "station_ids": [
+        "dmrc-mupr",
+        "dmrc-gkpr",
+        "dmrc-jiee",
+        "dmrc-svvr"
+      ],
+      "segments": [
+        {
+          "metres": 1438.0,
+          "seconds": 136,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6921031,
+              "lng": 77.2774233
+            },
+            {
+              "lat": 28.7025224,
+              "lng": 77.2861548
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1347.0,
+          "seconds": 136,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.7025224,
+              "lng": 77.2861548
+            },
+            {
+              "lat": 28.714627,
+              "lng": 77.2866533
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 787.0,
+          "seconds": 109,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.714627,
+              "lng": 77.2866533
+            },
+            {
+              "lat": 28.7215468,
+              "lng": 77.2883255
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        }
+      ],
+      "dwell_seconds": 0,
+      "family_id": "dmrc-ln7extn"
+    },
+    {
+      "id": "dmrc-ln8",
+      "operator_id": "dmrc",
+      "name": "Magenta Line",
+      "color": "#f300f3",
+      "station_ids": [
+        "dmrc-bcgn",
+        "dmrc-okbs",
+        "dmrc-kikj",
+        "dmrc-jla8",
+        "dmrc-ova",
+        "dmrc-janr",
+        "dmrc-iwnr",
+        "dmrc-okns",
+        "dmrc-kjmd",
+        "dmrc-nuee",
+        "dmrc-gkei",
+        "dmrc-cdli",
+        "dmrc-pspk",
+        "dmrc-hks",
+        "dmrc-iit",
+        "dmrc-rkpm",
+        "dmrc-mirk",
+        "dmrc-vtvr",
+        "dmrc-skvr",
+        "dmrc-igda",
+        "dmrc-sabr",
+        "dmrc-palm",
+        "dmrc-dshp",
+        "dmrc-dbmr",
+        "dmrc-jpw",
+        "dmrc-kpen"
+      ],
+      "segments": [
+        {
+          "metres": 1841.0,
+          "seconds": 206,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.564,
+              "lng": 77.3343
+            },
+            {
+              "lat": 28.5530441,
+              "lng": 77.3201621
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1515.0,
+          "seconds": 144,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.5530441,
+              "lng": 77.3201621
+            },
+            {
+              "lat": 28.543,
+              "lng": 77.30968
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1543.0,
+          "seconds": 300,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.543,
+              "lng": 77.30968
+            },
+            {
+              "lat": 28.5462285,
+              "lng": 77.2943212
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1709.0,
+          "seconds": 300,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.5462285,
+              "lng": 77.2943212
+            },
+            {
+              "lat": 28.5614626,
+              "lng": 77.2919823
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 621.0,
+          "seconds": 141,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.5614626,
+              "lng": 77.2919823
+            },
+            {
+              "lat": 28.5627144,
+              "lng": 77.2857862
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1260.0,
+          "seconds": 146,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.5627144,
+              "lng": 77.2857862
+            },
+            {
+              "lat": 28.5596435,
+              "lng": 77.2733625
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1012.0,
+          "seconds": 128,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.5596435,
+              "lng": 77.2733625
+            },
+            {
+              "lat": 28.5544365,
+              "lng": 77.2648578
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 944.0,
+          "seconds": 118,
+          "zone": "transition",
+          "geometry": [
+            {
+              "lat": 28.5544365,
+              "lng": 77.2648578
+            },
+            {
+              "lat": 28.54945,
+              "lng": 77.2570313
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 699.0,
+          "seconds": 99,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.54945,
+              "lng": 77.2570313
+            },
+            {
+              "lat": 28.5458514,
+              "lng": 77.251167
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1033.0,
+          "seconds": 140,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.5458514,
+              "lng": 77.251167
+            },
+            {
+              "lat": 28.5430994,
+              "lng": 77.2410711
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1060.0,
+          "seconds": 108,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.5430994,
+              "lng": 77.2410711
+            },
+            {
+              "lat": 28.5410031,
+              "lng": 77.2304831
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1179.0,
+          "seconds": 127,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.5410031,
+              "lng": 77.2304831
+            },
+            {
+              "lat": 28.5422964,
+              "lng": 77.2185052
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1217.0,
+          "seconds": 163,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.5422964,
+              "lng": 77.2185052
+            },
+            {
+              "lat": 28.544,
+              "lng": 77.2062
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1467.0,
+          "seconds": 123,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.544,
+              "lng": 77.2062
+            },
+            {
+              "lat": 28.547199,
+              "lng": 77.1916283
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 723.0,
+          "seconds": 112,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.547199,
+              "lng": 77.1916283
+            },
+            {
+              "lat": 28.5503497,
+              "lng": 77.1851486
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1470.0,
+          "seconds": 131,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.5503497,
+              "lng": 77.1851486
+            },
+            {
+              "lat": 28.5567549,
+              "lng": 77.1719806
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1150.0,
+          "seconds": 163,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.5567549,
+              "lng": 77.1719806
+            },
+            {
+              "lat": 28.5581039,
+              "lng": 77.1603043
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 2184.0,
+          "seconds": 167,
+          "zone": "transition",
+          "geometry": [
+            {
+              "lat": 28.5581039,
+              "lng": 77.1603043
+            },
+            {
+              "lat": 28.5608173,
+              "lng": 77.1381563
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1624.0,
+          "seconds": 194,
+          "zone": "transition",
+          "geometry": [
+            {
+              "lat": 28.5608173,
+              "lng": 77.1381563
+            },
+            {
+              "lat": 28.5647538,
+              "lng": 77.1221478
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1667.0,
+          "seconds": 181,
+          "zone": "transition",
+          "geometry": [
+            {
+              "lat": 28.5647538,
+              "lng": 77.1221478
+            },
+            {
+              "lat": 28.5764632,
+              "lng": 77.1114814
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 3316.0,
+          "seconds": 238,
+          "zone": "transition",
+          "geometry": [
+            {
+              "lat": 28.5764632,
+              "lng": 77.1114814
+            },
+            {
+              "lat": 28.5889555,
+              "lng": 77.0806434
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1500.0,
+          "seconds": 143,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.5889555,
+              "lng": 77.0806434
+            },
+            {
+              "lat": 28.6024422,
+              "lng": 77.0803213
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1472.0,
+          "seconds": 300,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.6024422,
+              "lng": 77.0803213
+            },
+            {
+              "lat": 28.6155363,
+              "lng": 77.0825158
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1619.0,
+          "seconds": 300,
+          "zone": "transition",
+          "geometry": [
+            {
+              "lat": 28.6155363,
+              "lng": 77.0825158
+            },
+            {
+              "lat": 28.6295,
+              "lng": 77.0778
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1.0,
+          "seconds": 720,
+          "zone": "transition",
+          "geometry": [
+            {
+              "lat": 28.6295,
+              "lng": 77.0778
+            },
+            {
+              "lat": 28.6295,
+              "lng": 77.0778
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        }
+      ],
+      "dwell_seconds": 0,
+      "family_id": "dmrc-ln8"
+    },
+    {
+      "id": "dmrc-ln8extn",
+      "operator_id": "dmrc",
+      "name": "Magenta (Ext.)",
+      "color": "#f300f3",
+      "station_ids": [
+        "dmrc-dpck",
+        "dmrc-ptp",
+        "dmrc-phvr",
+        "dmrc-nppr",
+        "dmrc-bimr",
+        "dmrc-blsw",
+        "dmrc-mkpr"
+      ],
+      "segments": [
+        {
+          "metres": 1515.0,
+          "seconds": 108,
+          "zone": "transition",
+          "geometry": [
+            {
+              "lat": 28.698002,
+              "lng": 77.118101
+            },
+            {
+              "lat": 28.7031,
+              "lng": 77.1325
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1278.0,
+          "seconds": 2,
+          "zone": "transition",
+          "geometry": [
+            {
+              "lat": 28.7031,
+              "lng": 77.1325
+            },
+            {
+              "lat": 28.713198,
+              "lng": 77.138755
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1268.0,
+          "seconds": 108,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.713198,
+              "lng": 77.138755
+            },
+            {
+              "lat": 28.723761,
+              "lng": 77.143663
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 877.0,
+          "seconds": 108,
+          "zone": "transition",
+          "geometry": [
+            {
+              "lat": 28.723761,
+              "lng": 77.143663
+            },
+            {
+              "lat": 28.7299849889464,
+              "lng": 77.1491824510158
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1990.0,
+          "seconds": 108,
+          "zone": "transition",
+          "geometry": [
+            {
+              "lat": 28.7299849889464,
+              "lng": 77.1491824510158
+            },
+            {
+              "lat": 28.736927,
+              "lng": 77.167997
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1872.0,
+          "seconds": 108,
+          "zone": "transition",
+          "geometry": [
+            {
+              "lat": 28.736927,
+              "lng": 77.167997
+            },
+            {
+              "lat": 28.724167,
+              "lng": 77.1805273
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        }
+      ],
+      "dwell_seconds": 0,
+      "family_id": "dmrc-ln8extn"
+    },
+    {
+      "id": "dmrc-ln9",
+      "operator_id": "dmrc",
+      "name": "Grey Line",
+      "color": "#808080",
+      "station_ids": [
+        "dmrc-dnbt",
+        "dmrc-nfgh",
+        "dmrc-nngi",
+        "dmrc-dw"
+      ],
+      "segments": [
+        {
+          "metres": 876.0,
+          "seconds": 276,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.6118577,
+              "lng": 76.9754261
+            },
+            {
+              "lat": 28.6126772,
+              "lng": 76.984354
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 2403.0,
+          "seconds": 244,
+          "zone": "transition",
+          "geometry": [
+            {
+              "lat": 28.6126772,
+              "lng": 76.984354
+            },
+            {
+              "lat": 28.6174019,
+              "lng": 77.0083739
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1426.0,
+          "seconds": 136,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.6174019,
+              "lng": 77.0083739
+            },
+            {
+              "lat": 28.6149,
+              "lng": 77.0227
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        }
+      ],
+      "dwell_seconds": 0,
+      "family_id": "dmrc-ln9"
+    },
+    {
+      "id": "dmrc-ln10",
+      "operator_id": "dmrc",
+      "name": "Orange Line",
+      "color": "#f46808",
+      "station_ids": [
+        "dmrc-iicc",
+        "dmrc-dsto",
+        "dmrc-apot",
+        "dmrc-dacy",
+        "dmrc-dkv",
+        "dmrc-sjsu",
+        "dmrc-ndi"
+      ],
+      "segments": [
+        {
+          "metres": 1284.0,
+          "seconds": 124,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.550816,
+              "lng": 77.045253
+            },
+            {
+              "lat": 28.5522,
+              "lng": 77.0583
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 2852.0,
+          "seconds": 184,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.5522,
+              "lng": 77.0583
+            },
+            {
+              "lat": 28.5573141,
+              "lng": 77.0869171
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 3228.0,
+          "seconds": 212,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.5573141,
+              "lng": 77.0869171
+            },
+            {
+              "lat": 28.548032,
+              "lng": 77.1182363
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 6474.0,
+          "seconds": 301,
+          "zone": "transition",
+          "geometry": [
+            {
+              "lat": 28.548032,
+              "lng": 77.1182363
+            },
+            {
+              "lat": 28.5921119,
+              "lng": 77.1615398
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 6350.0,
+          "seconds": 299,
+          "zone": "transition",
+          "geometry": [
+            {
+              "lat": 28.5921119,
+              "lng": 77.1615398
+            },
+            {
+              "lat": 28.6287699,
+              "lng": 77.2114121
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        },
+        {
+          "metres": 1757.0,
+          "seconds": 166,
+          "zone": "underground",
+          "geometry": [
+            {
+              "lat": 28.6287699,
+              "lng": 77.2114121
+            },
+            {
+              "lat": 28.6427,
+              "lng": 77.2199
+            }
+          ],
+          "timing_source": "dmrc_indicative_journey_time",
+          "distance_source": "station_coordinate_estimate"
+        }
+      ],
+      "dwell_seconds": 0,
+      "family_id": "dmrc-ln10"
+    },
+    {
+      "id": "nmrc-aqua",
+      "operator_id": "nmrc",
+      "name": "Aqua Line",
+      "color": "#009c9c",
+      "station_ids": [
+        "nmrc-1",
+        "nmrc-2",
+        "nmrc-3",
+        "nmrc-4",
+        "nmrc-5",
+        "nmrc-6",
+        "nmrc-7",
+        "nmrc-8",
+        "nmrc-9",
+        "nmrc-10",
+        "nmrc-11",
+        "nmrc-12",
+        "nmrc-13",
+        "nmrc-14",
+        "nmrc-15",
+        "nmrc-16",
+        "nmrc-17",
+        "nmrc-18",
+        "nmrc-19",
+        "nmrc-20",
+        "nmrc-21"
+      ],
+      "segments": [
+        {
+          "metres": 1270.0,
+          "seconds": 120,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.585548,
+              "lng": 77.375374
+            },
+            {
+              "lat": 28.574547,
+              "lng": 77.378357
+            }
+          ],
+          "timing_source": "nmrc_indicative_journey_time",
+          "distance_source": "nmrc_journey_planner"
+        },
+        {
+          "metres": 1000.0,
+          "seconds": 120,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.574547,
+              "lng": 77.378357
+            },
+            {
+              "lat": 28.565445,
+              "lng": 77.37973
+            }
+          ],
+          "timing_source": "nmrc_indicative_journey_time",
+          "distance_source": "nmrc_journey_planner"
+        },
+        {
+          "metres": 1160.0,
+          "seconds": 120,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.565445,
+              "lng": 77.37973
+            },
+            {
+              "lat": 28.556065,
+              "lng": 77.385056
+            }
+          ],
+          "timing_source": "nmrc_indicative_journey_time",
+          "distance_source": "nmrc_journey_planner"
+        },
+        {
+          "metres": 910.0,
+          "seconds": 120,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.556065,
+              "lng": 77.385056
+            },
+            {
+              "lat": 28.549259,
+              "lng": 77.390099
+            }
+          ],
+          "timing_source": "nmrc_indicative_journey_time",
+          "distance_source": "nmrc_journey_planner"
+        },
+        {
+          "metres": 1190.0,
+          "seconds": 120,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.549259,
+              "lng": 77.390099
+            },
+            {
+              "lat": 28.532248,
+              "lng": 77.394951
+            }
+          ],
+          "timing_source": "nmrc_indicative_journey_time",
+          "distance_source": "nmrc_journey_planner"
+        },
+        {
+          "metres": 1.0,
+          "seconds": 120,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.532248,
+              "lng": 77.394951
+            },
+            {
+              "lat": 28.522284,
+              "lng": 77.396477
+            }
+          ],
+          "timing_source": "nmrc_indicative_journey_time",
+          "distance_source": "nmrc_journey_planner"
+        },
+        {
+          "metres": 1460.0,
+          "seconds": 120,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.522284,
+              "lng": 77.396477
+            },
+            {
+              "lat": 28.510817,
+              "lng": 77.403625
+            }
+          ],
+          "timing_source": "nmrc_indicative_journey_time",
+          "distance_source": "nmrc_journey_planner"
+        },
+        {
+          "metres": 1680.0,
+          "seconds": 120,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.510817,
+              "lng": 77.403625
+            },
+            {
+              "lat": 28.498999,
+              "lng": 77.412567
+            }
+          ],
+          "timing_source": "nmrc_indicative_journey_time",
+          "distance_source": "nmrc_journey_planner"
+        },
+        {
+          "metres": 1100.0,
+          "seconds": 120,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.498999,
+              "lng": 77.412567
+            },
+            {
+              "lat": 28.494246,
+              "lng": 77.422318
+            }
+          ],
+          "timing_source": "nmrc_indicative_journey_time",
+          "distance_source": "nmrc_journey_planner"
+        },
+        {
+          "metres": 1390.0,
+          "seconds": 120,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.494246,
+              "lng": 77.422318
+            },
+            {
+              "lat": 28.486376,
+              "lng": 77.432968
+            }
+          ],
+          "timing_source": "nmrc_indicative_journey_time",
+          "distance_source": "nmrc_journey_planner"
+        },
+        {
+          "metres": 1210.0,
+          "seconds": 120,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.486376,
+              "lng": 77.432968
+            },
+            {
+              "lat": 28.47913,
+              "lng": 77.442307
+            }
+          ],
+          "timing_source": "nmrc_indicative_journey_time",
+          "distance_source": "nmrc_journey_planner"
+        },
+        {
+          "metres": 1730.0,
+          "seconds": 120,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.47913,
+              "lng": 77.442307
+            },
+            {
+              "lat": 28.468822,
+              "lng": 77.455101
+            }
+          ],
+          "timing_source": "nmrc_indicative_journey_time",
+          "distance_source": "nmrc_journey_planner"
+        },
+        {
+          "metres": 1500.0,
+          "seconds": 120,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.468822,
+              "lng": 77.455101
+            },
+            {
+              "lat": 28.4594,
+              "lng": 77.465965
+            }
+          ],
+          "timing_source": "nmrc_indicative_journey_time",
+          "distance_source": "nmrc_journey_planner"
+        },
+        {
+          "metres": 1620.0,
+          "seconds": 120,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.4594,
+              "lng": 77.465965
+            },
+            {
+              "lat": 28.448021,
+              "lng": 77.476692
+            }
+          ],
+          "timing_source": "nmrc_indicative_journey_time",
+          "distance_source": "nmrc_journey_planner"
+        },
+        {
+          "metres": 2970.0,
+          "seconds": 120,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.448021,
+              "lng": 77.476692
+            },
+            {
+              "lat": 28.456865,
+              "lng": 77.500298
+            }
+          ],
+          "timing_source": "nmrc_indicative_journey_time",
+          "distance_source": "nmrc_journey_planner"
+        },
+        {
+          "metres": 1100.0,
+          "seconds": 120,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.456865,
+              "lng": 77.500298
+            },
+            {
+              "lat": 28.463331,
+              "lng": 77.508308
+            }
+          ],
+          "timing_source": "nmrc_indicative_journey_time",
+          "distance_source": "nmrc_journey_planner"
+        },
+        {
+          "metres": 1120.0,
+          "seconds": 120,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.463331,
+              "lng": 77.508308
+            },
+            {
+              "lat": 28.470879,
+              "lng": 77.512718
+            }
+          ],
+          "timing_source": "nmrc_indicative_journey_time",
+          "distance_source": "nmrc_journey_planner"
+        },
+        {
+          "metres": 1520.0,
+          "seconds": 120,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.470879,
+              "lng": 77.512718
+            },
+            {
+              "lat": 28.478374,
+              "lng": 77.525581
+            }
+          ],
+          "timing_source": "nmrc_indicative_journey_time",
+          "distance_source": "nmrc_journey_planner"
+        },
+        {
+          "metres": 1270.0,
+          "seconds": 120,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.478374,
+              "lng": 77.525581
+            },
+            {
+              "lat": 28.484531,
+              "lng": 77.536621
+            }
+          ],
+          "timing_source": "nmrc_indicative_journey_time",
+          "distance_source": "nmrc_journey_planner"
+        },
+        {
+          "metres": 860.0,
+          "seconds": 120,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.484531,
+              "lng": 77.536621
+            },
+            {
+              "lat": 28.488651,
+              "lng": 77.544075
+            }
+          ],
+          "timing_source": "nmrc_indicative_journey_time",
+          "distance_source": "nmrc_journey_planner"
+        }
+      ],
+      "dwell_seconds": 0,
+      "family_id": "nmrc-aqua"
+    }
+  ],
+  "checkpoints": [],
+  "transfer_seconds": 240,
+  "transfers": [
+    {
+      "from_station_id": "dmrc-sftn",
+      "to_station_id": "nmrc-1",
+      "seconds": 480,
+      "requires_exit": true,
+      "walking_metres": 430.0,
+      "distance_estimated": true,
+      "source_url": "https://www.nmrcnoida.com/Passenger-Information/Journey-Planner-and-Fares"
+    },
+    {
+      "from_station_id": "dmrc-dkv",
+      "to_station_id": "dmrc-ddsc",
+      "seconds": 853,
+      "requires_exit": true,
+      "walking_metres": 880.0,
+      "distance_estimated": true,
+      "source_url": "https://delhimetrorail.com/map"
+    }
+  ],
+  "journey_planning": true,
+  "sources": [
+    {
+      "url": "https://delhimetrorail.com/map",
+      "retrieved_at": "2026-10-08T17:03:50.243108+00:00",
+      "scope": "DMRC station layouts, coordinates, open station adjacency and indicative journey times"
+    },
+    {
+      "url": "https://www.nmrcnoida.com/StationList",
+      "retrieved_at": "2026-10-08T17:03:50.243108+00:00",
+      "scope": "NMRC 21-station network"
+    },
+    {
+      "url": "https://www.nmrcnoida.com/Passenger-Information/Journey-Planner-and-Fares",
+      "retrieved_at": "2026-10-08T17:03:50.243108+00:00",
+      "scope": "NMRC indicative segment time and distance"
+    },
+    {
+      "url": "https://otd.delhi.gov.in/data/staticDMRC/",
+      "mirror_url": "https://ethanc8.github.io/delhi-gtfs/metro.zip",
+      "scope": "Historical NMRC coordinates only; feed expired 2025-12-31"
+    }
+  ],
+  "coverage_note": "Open stations in the retrieved DMRC passenger API and all 21 NMRC stations. Rapid Metro Gurugram is outside this Delhi/Noida catalogue. Journey times are indicative static estimates, not next-train departures. Walking distances are estimates; station access and security time are not measured. NMRC coordinates come from a historical OTD mirror; track geometry is a straight station-to-station approximation. Refresh and review operator changes before deployment.",
+  "transfer_walking_metres": 180
+}

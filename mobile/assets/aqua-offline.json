@@ -1,0 +1,603 @@
+{
+  "schema_version": 1,
+  "network_version": "operator-catalogue-2026-10-08-227ea9a4f1",
+  "scope": "nmrc_aqua_phase_1",
+  "stations": [
+    {
+      "lat": 28.585548,
+      "lng": 77.375374,
+      "id": "nmrc-1",
+      "name": "Noida Sector - 51",
+      "area": "Noida Metro · Aqua Line",
+      "x": 606.88,
+      "y": 202.87,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.574547,
+      "lng": 77.378357,
+      "id": "nmrc-2",
+      "name": "Noida Sector - 50",
+      "area": "Noida Metro · Aqua Line",
+      "x": 610.65,
+      "y": 214.83,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.565445,
+      "lng": 77.37973,
+      "id": "nmrc-3",
+      "name": "Noida Sector - 76",
+      "area": "Noida Metro · Aqua Line",
+      "x": 612.38,
+      "y": 224.72,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.556065,
+      "lng": 77.385056,
+      "id": "nmrc-4",
+      "name": "Noida Sector - 101",
+      "area": "Noida Metro · Aqua Line",
+      "x": 619.11,
+      "y": 234.92,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.549259,
+      "lng": 77.390099,
+      "id": "nmrc-5",
+      "name": "Noida Sector - 81",
+      "area": "Noida Metro · Aqua Line",
+      "x": 625.48,
+      "y": 242.32,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.532248,
+      "lng": 77.394951,
+      "id": "nmrc-6",
+      "name": "NSEZ",
+      "area": "Noida Metro · Aqua Line",
+      "x": 631.61,
+      "y": 260.81,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.522284,
+      "lng": 77.396477,
+      "id": "nmrc-7",
+      "name": "Noida Sector - 83",
+      "area": "Noida Metro · Aqua Line",
+      "x": 633.54,
+      "y": 271.64,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.510817,
+      "lng": 77.403625,
+      "id": "nmrc-8",
+      "name": "Noida Sector - 137",
+      "area": "Noida Metro · Aqua Line",
+      "x": 642.57,
+      "y": 284.1,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.498999,
+      "lng": 77.412567,
+      "id": "nmrc-9",
+      "name": "Noida Sector - 142",
+      "area": "Noida Metro · Aqua Line",
+      "x": 653.86,
+      "y": 296.95,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.494246,
+      "lng": 77.422318,
+      "id": "nmrc-10",
+      "name": "Noida Sector - 143",
+      "area": "Noida Metro · Aqua Line",
+      "x": 666.18,
+      "y": 302.11,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.486376,
+      "lng": 77.432968,
+      "id": "nmrc-11",
+      "name": "Noida Sector - 144",
+      "area": "Noida Metro · Aqua Line",
+      "x": 679.64,
+      "y": 310.67,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.47913,
+      "lng": 77.442307,
+      "id": "nmrc-12",
+      "name": "Noida Sector - 145",
+      "area": "Noida Metro · Aqua Line",
+      "x": 691.44,
+      "y": 318.54,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.468822,
+      "lng": 77.455101,
+      "id": "nmrc-13",
+      "name": "Noida Sector - 146",
+      "area": "Noida Metro · Aqua Line",
+      "x": 707.6,
+      "y": 329.74,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.4594,
+      "lng": 77.465965,
+      "id": "nmrc-14",
+      "name": "Noida Sector - 147",
+      "area": "Noida Metro · Aqua Line",
+      "x": 721.32,
+      "y": 339.99,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.448021,
+      "lng": 77.476692,
+      "id": "nmrc-15",
+      "name": "Noida Sector - 148",
+      "area": "Noida Metro · Aqua Line",
+      "x": 734.87,
+      "y": 352.35,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.456865,
+      "lng": 77.500298,
+      "id": "nmrc-16",
+      "name": "Knowledge Park-ll",
+      "area": "Noida Metro · Aqua Line",
+      "x": 764.7,
+      "y": 342.74,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.463331,
+      "lng": 77.508308,
+      "id": "nmrc-17",
+      "name": "Pari Chowk",
+      "area": "Noida Metro · Aqua Line",
+      "x": 774.82,
+      "y": 335.71,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.470879,
+      "lng": 77.512718,
+      "id": "nmrc-18",
+      "name": "Alpha-1",
+      "area": "Noida Metro · Aqua Line",
+      "x": 780.39,
+      "y": 327.51,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.478374,
+      "lng": 77.525581,
+      "id": "nmrc-19",
+      "name": "Delta-1",
+      "area": "Noida Metro · Aqua Line",
+      "x": 796.64,
+      "y": 319.36,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.484531,
+      "lng": 77.536621,
+      "id": "nmrc-20",
+      "name": "GNIDA Office",
+      "area": "Noida Metro · Aqua Line",
+      "x": 810.58,
+      "y": 312.67,
+      "zone": "surface"
+    },
+    {
+      "lat": 28.488651,
+      "lng": 77.544075,
+      "id": "nmrc-21",
+      "name": "Depot Station",
+      "area": "Noida Metro · Aqua Line",
+      "x": 820.0,
+      "y": 308.19,
+      "zone": "surface"
+    }
+  ],
+  "lines": [
+    {
+      "id": "nmrc-aqua",
+      "operator_id": "nmrc",
+      "name": "Aqua Line",
+      "color": "#009c9c",
+      "station_ids": [
+        "nmrc-1",
+        "nmrc-2",
+        "nmrc-3",
+        "nmrc-4",
+        "nmrc-5",
+        "nmrc-6",
+        "nmrc-7",
+        "nmrc-8",
+        "nmrc-9",
+        "nmrc-10",
+        "nmrc-11",
+        "nmrc-12",
+        "nmrc-13",
+        "nmrc-14",
+        "nmrc-15",
+        "nmrc-16",
+        "nmrc-17",
+        "nmrc-18",
+        "nmrc-19",
+        "nmrc-20",
+        "nmrc-21"
+      ],
+      "segments": [
+        {
+          "metres": 1270.0,
+          "seconds": 120,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.585548,
+              "lng": 77.375374
+            },
+            {
+              "lat": 28.574547,
+              "lng": 77.378357
+            }
+          ],
+          "timing_source": "nmrc_indicative_journey_time",
+          "distance_source": "nmrc_journey_planner"
+        },
+        {
+          "metres": 1000.0,
+          "seconds": 120,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.574547,
+              "lng": 77.378357
+            },
+            {
+              "lat": 28.565445,
+              "lng": 77.37973
+            }
+          ],
+          "timing_source": "nmrc_indicative_journey_time",
+          "distance_source": "nmrc_journey_planner"
+        },
+        {
+          "metres": 1160.0,
+          "seconds": 120,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.565445,
+              "lng": 77.37973
+            },
+            {
+              "lat": 28.556065,
+              "lng": 77.385056
+            }
+          ],
+          "timing_source": "nmrc_indicative_journey_time",
+          "distance_source": "nmrc_journey_planner"
+        },
+        {
+          "metres": 910.0,
+          "seconds": 120,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.556065,
+              "lng": 77.385056
+            },
+            {
+              "lat": 28.549259,
+              "lng": 77.390099
+            }
+          ],
+          "timing_source": "nmrc_indicative_journey_time",
+          "distance_source": "nmrc_journey_planner"
+        },
+        {
+          "metres": 1190.0,
+          "seconds": 120,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.549259,
+              "lng": 77.390099
+            },
+            {
+              "lat": 28.532248,
+              "lng": 77.394951
+            }
+          ],
+          "timing_source": "nmrc_indicative_journey_time",
+          "distance_source": "nmrc_journey_planner"
+        },
+        {
+          "metres": 1.0,
+          "seconds": 120,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.532248,
+              "lng": 77.394951
+            },
+            {
+              "lat": 28.522284,
+              "lng": 77.396477
+            }
+          ],
+          "timing_source": "nmrc_indicative_journey_time",
+          "distance_source": "nmrc_journey_planner"
+        },
+        {
+          "metres": 1460.0,
+          "seconds": 120,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.522284,
+              "lng": 77.396477
+            },
+            {
+              "lat": 28.510817,
+              "lng": 77.403625
+            }
+          ],
+          "timing_source": "nmrc_indicative_journey_time",
+          "distance_source": "nmrc_journey_planner"
+        },
+        {
+          "metres": 1680.0,
+          "seconds": 120,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.510817,
+              "lng": 77.403625
+            },
+            {
+              "lat": 28.498999,
+              "lng": 77.412567
+            }
+          ],
+          "timing_source": "nmrc_indicative_journey_time",
+          "distance_source": "nmrc_journey_planner"
+        },
+        {
+          "metres": 1100.0,
+          "seconds": 120,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.498999,
+              "lng": 77.412567
+            },
+            {
+              "lat": 28.494246,
+              "lng": 77.422318
+            }
+          ],
+          "timing_source": "nmrc_indicative_journey_time",
+          "distance_source": "nmrc_journey_planner"
+        },
+        {
+          "metres": 1390.0,
+          "seconds": 120,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.494246,
+              "lng": 77.422318
+            },
+            {
+              "lat": 28.486376,
+              "lng": 77.432968
+            }
+          ],
+          "timing_source": "nmrc_indicative_journey_time",
+          "distance_source": "nmrc_journey_planner"
+        },
+        {
+          "metres": 1210.0,
+          "seconds": 120,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.486376,
+              "lng": 77.432968
+            },
+            {
+              "lat": 28.47913,
+              "lng": 77.442307
+            }
+          ],
+          "timing_source": "nmrc_indicative_journey_time",
+          "distance_source": "nmrc_journey_planner"
+        },
+        {
+          "metres": 1730.0,
+          "seconds": 120,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.47913,
+              "lng": 77.442307
+            },
+            {
+              "lat": 28.468822,
+              "lng": 77.455101
+            }
+          ],
+          "timing_source": "nmrc_indicative_journey_time",
+          "distance_source": "nmrc_journey_planner"
+        },
+        {
+          "metres": 1500.0,
+          "seconds": 120,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.468822,
+              "lng": 77.455101
+            },
+            {
+              "lat": 28.4594,
+              "lng": 77.465965
+            }
+          ],
+          "timing_source": "nmrc_indicative_journey_time",
+          "distance_source": "nmrc_journey_planner"
+        },
+        {
+          "metres": 1620.0,
+          "seconds": 120,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.4594,
+              "lng": 77.465965
+            },
+            {
+              "lat": 28.448021,
+              "lng": 77.476692
+            }
+          ],
+          "timing_source": "nmrc_indicative_journey_time",
+          "distance_source": "nmrc_journey_planner"
+        },
+        {
+          "metres": 2970.0,
+          "seconds": 120,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.448021,
+              "lng": 77.476692
+            },
+            {
+              "lat": 28.456865,
+              "lng": 77.500298
+            }
+          ],
+          "timing_source": "nmrc_indicative_journey_time",
+          "distance_source": "nmrc_journey_planner"
+        },
+        {
+          "metres": 1100.0,
+          "seconds": 120,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.456865,
+              "lng": 77.500298
+            },
+            {
+              "lat": 28.463331,
+              "lng": 77.508308
+            }
+          ],
+          "timing_source": "nmrc_indicative_journey_time",
+          "distance_source": "nmrc_journey_planner"
+        },
+        {
+          "metres": 1120.0,
+          "seconds": 120,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.463331,
+              "lng": 77.508308
+            },
+            {
+              "lat": 28.470879,
+              "lng": 77.512718
+            }
+          ],
+          "timing_source": "nmrc_indicative_journey_time",
+          "distance_source": "nmrc_journey_planner"
+        },
+        {
+          "metres": 1520.0,
+          "seconds": 120,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.470879,
+              "lng": 77.512718
+            },
+            {
+              "lat": 28.478374,
+              "lng": 77.525581
+            }
+          ],
+          "timing_source": "nmrc_indicative_journey_time",
+          "distance_source": "nmrc_journey_planner"
+        },
+        {
+          "metres": 1270.0,
+          "seconds": 120,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.478374,
+              "lng": 77.525581
+            },
+            {
+              "lat": 28.484531,
+              "lng": 77.536621
+            }
+          ],
+          "timing_source": "nmrc_indicative_journey_time",
+          "distance_source": "nmrc_journey_planner"
+        },
+        {
+          "metres": 860.0,
+          "seconds": 120,
+          "zone": "surface",
+          "geometry": [
+            {
+              "lat": 28.484531,
+              "lng": 77.536621
+            },
+            {
+              "lat": 28.488651,
+              "lng": 77.544075
+            }
+          ],
+          "timing_source": "nmrc_indicative_journey_time",
+          "distance_source": "nmrc_journey_planner"
+        }
+      ],
+      "dwell_seconds": 0,
+      "family_id": "nmrc-aqua"
+    }
+  ],
+  "cell_map": {
+    "version": "unmapped",
+    "entries": [],
+    "source": null
+  },
+  "live_ttl_seconds": 30,
+  "cell_map_budget_bytes": 8388608,
+  "timing_kind": "operator_indicative_segment_times",
+  "dated_departures_available": false,
+  "notice": "Offline journey estimates exclude ordinary boarding wait. Cell coverage requires a reviewed field map; live evidence expires after 30 seconds.",
+  "bundle_bytes": 8338
+}

@@ -1,0 +1,4 @@
+# Devices authenticate with their node ID and may publish only their own topic.
+pattern write metro/sensors/%u/events
+user metro-ingestor
+topic read metro/sensors/+/events

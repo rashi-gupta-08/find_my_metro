@@ -1,0 +1,116 @@
+{
+  "$defs": {
+    "OperatorTrip": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[A-Za-z0-9_:.-]{1,100}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "code": {
+          "maxLength": 30,
+          "minLength": 1,
+          "title": "Code",
+          "type": "string"
+        },
+        "line_id": {
+          "title": "Line Id",
+          "type": "string"
+        },
+        "direction": {
+          "enum": [
+            "inbound",
+            "outbound"
+          ],
+          "title": "Direction",
+          "type": "string"
+        },
+        "cancelled": {
+          "default": false,
+          "title": "Cancelled",
+          "type": "boolean"
+        },
+        "stops": {
+          "items": {
+            "$ref": "#/$defs/StopTime"
+          },
+          "maxItems": 200,
+          "minItems": 2,
+          "title": "Stops",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "code",
+        "line_id",
+        "direction",
+        "stops"
+      ],
+      "title": "OperatorTrip",
+      "type": "object"
+    },
+    "StopTime": {
+      "additionalProperties": false,
+      "properties": {
+        "station_id": {
+          "title": "Station Id",
+          "type": "string"
+        },
+        "arrival_at": {
+          "format": "date-time",
+          "title": "Arrival At",
+          "type": "string"
+        },
+        "departure_at": {
+          "format": "date-time",
+          "title": "Departure At",
+          "type": "string"
+        },
+        "platform": {
+          "anyOf": [
+            {
+              "maxLength": 30,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Platform"
+        }
+      },
+      "required": [
+        "station_id",
+        "arrival_at",
+        "departure_at"
+      ],
+      "title": "StopTime",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "network_version": {
+      "title": "Network Version",
+      "type": "string"
+    },
+    "trips": {
+      "items": {
+        "$ref": "#/$defs/OperatorTrip"
+      },
+      "maxItems": 200,
+      "minItems": 1,
+      "title": "Trips",
+      "type": "array"
+    }
+  },
+  "required": [
+    "network_version",
+    "trips"
+  ],
+  "title": "TimetableImport",
+  "type": "object"
+}

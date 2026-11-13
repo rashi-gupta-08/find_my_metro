@@ -1,0 +1,74 @@
+﻿scenario_id,title,offset_seconds,station_id,line_id,direction,event_type,expected_signal_status,expected_confirmations,expected_delay_seconds,expected_route_delay_seconds
+surface-agreement,Surface: three passengers agree,5,dmrc-sftn,dmrc-ln3,outbound,delayed,confirmed,3,300,300
+no-input,No reports: static baseline,5,dmrc-sftn,dmrc-ln3,outbound,delayed,absent,0,,0
+sparse-crowd,Only two passengers,5,dmrc-sftn,dmrc-ln3,outbound,delayed,awaiting_agreement,2,,0
+same-account,Repeated submissions from one account,10,dmrc-sftn,dmrc-ln3,outbound,delayed,awaiting_agreement,1,,0
+duplicate-delivery,Offline retry: same event ID,5,dmrc-sftn,dmrc-ln3,outbound,delayed,confirmed,3,300,300
+id-conflict,Changed content under an existing ID,5,dmrc-sftn,dmrc-ln3,outbound,delayed,awaiting_agreement,1,,0
+cross-account-id,One event ID reused by another account,5,dmrc-sftn,dmrc-ln3,outbound,delayed,awaiting_agreement,1,,0
+conflicting-delays,Reports disagree on the delay,5,dmrc-sftn,dmrc-ln3,outbound,delayed,awaiting_agreement,2,,0
+honest-majority,Consistent group plus outliers,5,dmrc-sftn,dmrc-ln3,outbound,delayed,confirmed,3,300,300
+late-upload,Offline upload retains its original time,5,dmrc-sftn,dmrc-ln3,outbound,delayed,absent,0,,0
+freshness-boundary,Freshness expires at exactly 30 seconds,29.999,dmrc-sftn,dmrc-ln3,outbound,delayed,confirmed,3,300,300
+freshness-boundary,Freshness expires at exactly 30 seconds,30,dmrc-sftn,dmrc-ln3,outbound,delayed,absent,0,,0
+freshness-boundary,Freshness expires at exactly 30 seconds,60,dmrc-sftn,dmrc-ln3,outbound,delayed,absent,0,,0
+partial-expiry,One expiring member breaks the quorum,29,dmrc-sftn,dmrc-ln3,outbound,delayed,confirmed,3,300,300
+partial-expiry,One expiring member breaks the quorum,30,dmrc-sftn,dmrc-ln3,outbound,delayed,awaiting_agreement,2,,0
+partial-expiry,One expiring member breaks the quorum,50,dmrc-sftn,dmrc-ln3,outbound,delayed,absent,0,,0
+off-station,GPS fix far from the selected station,5,dmrc-sftn,dmrc-ln3,outbound,delayed,absent,0,,0
+missing-location,Location permission unavailable,5,dmrc-sftn,dmrc-ln3,outbound,delayed,absent,0,,0
+inaccurate-gps,GPS accuracy outside the contract,5,dmrc-sftn,dmrc-ln3,outbound,delayed,absent,0,,0
+wrong-line,Station and line do not match,5,dmrc-sftn,dmrc-ln3,outbound,delayed,absent,0,,0
+future-clock,Phone clock ahead by ten seconds,5,dmrc-sftn,dmrc-ln3,outbound,delayed,absent,0,,0
+split-directions,Opposite directions stay separate,5,dmrc-sftn,dmrc-ln3,outbound,delayed,awaiting_agreement,2,,0
+split-types,Arrival and delay votes stay separate,5,dmrc-sftn,dmrc-ln3,outbound,delayed,awaiting_agreement,2,,0
+split-types,Arrival and delay votes stay separate,5,dmrc-sftn,dmrc-ln3,outbound,arrived,awaiting_agreement,1,,0
+type-arrived,Three passengers: arrived,5,dmrc-sftn,dmrc-ln3,outbound,arrived,confirmed,3,,0
+type-departed,Three passengers: departed,5,dmrc-sftn,dmrc-ln3,outbound,departed,confirmed,3,,0
+type-crowded,Three passengers: crowded,5,dmrc-sftn,dmrc-ln3,outbound,crowded,confirmed,3,,0
+reverse-direction,Inbound travel,5,dmrc-necc,dmrc-ln3,inbound,delayed,confirmed,3,180,180
+underground-unmapped,Underground: unmapped cell readings,5,dmrc-rck,dmrc-ln2,inbound,delayed,absent,0,,0
+mixed-corridor,Mixed underground and surface corridor,5,dmrc-rck,dmrc-ln3,outbound,delayed,confirmed,3,180,180
+mixed-corridor,Mixed underground and surface corridor,30,dmrc-rck,dmrc-ln3,outbound,delayed,absent,0,,0
+aqua-delay,Aqua Line: no alternative metro corridor,5,nmrc-1,nmrc-aqua,outbound,delayed,confirmed,3,300,300
+later-boarding,Evidence expires before a later boarding,5,nmrc-1,nmrc-aqua,outbound,delayed,confirmed,3,300,0
+traffic-01,Traffic cohort 01,20,nmrc-1,nmrc-aqua,outbound,delayed,confirmed,13,230,230
+traffic-01,Traffic cohort 01,40,nmrc-1,nmrc-aqua,outbound,delayed,absent,0,,0
+traffic-02,Traffic cohort 02,20,nmrc-2,nmrc-aqua,outbound,delayed,confirmed,16,240,240
+traffic-02,Traffic cohort 02,40,nmrc-2,nmrc-aqua,outbound,delayed,absent,0,,0
+traffic-03,Traffic cohort 03,20,nmrc-3,nmrc-aqua,outbound,delayed,confirmed,14,50,50
+traffic-03,Traffic cohort 03,40,nmrc-3,nmrc-aqua,outbound,delayed,absent,0,,0
+traffic-04,Traffic cohort 04,20,nmrc-4,nmrc-aqua,outbound,delayed,confirmed,13,300,300
+traffic-04,Traffic cohort 04,40,nmrc-4,nmrc-aqua,outbound,delayed,absent,0,,0
+traffic-05,Traffic cohort 05,20,nmrc-5,nmrc-aqua,outbound,delayed,confirmed,14,235,235
+traffic-05,Traffic cohort 05,40,nmrc-5,nmrc-aqua,outbound,delayed,absent,0,,0
+traffic-06,Traffic cohort 06,20,nmrc-6,nmrc-aqua,outbound,delayed,confirmed,13,420,420
+traffic-06,Traffic cohort 06,40,nmrc-6,nmrc-aqua,outbound,delayed,absent,0,,0
+traffic-07,Traffic cohort 07,20,nmrc-7,nmrc-aqua,outbound,delayed,confirmed,13,240,240
+traffic-07,Traffic cohort 07,40,nmrc-7,nmrc-aqua,outbound,delayed,absent,0,,0
+traffic-08,Traffic cohort 08,20,nmrc-8,nmrc-aqua,outbound,delayed,confirmed,16,60,60
+traffic-08,Traffic cohort 08,40,nmrc-8,nmrc-aqua,outbound,delayed,absent,0,,0
+traffic-09,Traffic cohort 09,20,nmrc-9,nmrc-aqua,outbound,delayed,confirmed,18,120,120
+traffic-09,Traffic cohort 09,40,nmrc-9,nmrc-aqua,outbound,delayed,absent,0,,0
+traffic-10,Traffic cohort 10,20,nmrc-10,nmrc-aqua,outbound,delayed,confirmed,13,240,240
+traffic-10,Traffic cohort 10,40,nmrc-10,nmrc-aqua,outbound,delayed,absent,0,,0
+traffic-11,Traffic cohort 11,20,nmrc-11,nmrc-aqua,outbound,delayed,confirmed,16,60,60
+traffic-11,Traffic cohort 11,40,nmrc-11,nmrc-aqua,outbound,delayed,absent,0,,0
+traffic-12,Traffic cohort 12,20,nmrc-12,nmrc-aqua,outbound,delayed,confirmed,13,420,420
+traffic-12,Traffic cohort 12,40,nmrc-12,nmrc-aqua,outbound,delayed,absent,0,,0
+traffic-13,Traffic cohort 13,20,nmrc-13,nmrc-aqua,outbound,delayed,confirmed,17,120,120
+traffic-13,Traffic cohort 13,40,nmrc-13,nmrc-aqua,outbound,delayed,absent,0,,0
+traffic-14,Traffic cohort 14,20,nmrc-14,nmrc-aqua,outbound,delayed,confirmed,17,240,240
+traffic-14,Traffic cohort 14,40,nmrc-14,nmrc-aqua,outbound,delayed,absent,0,,0
+traffic-15,Traffic cohort 15,20,nmrc-15,nmrc-aqua,outbound,delayed,confirmed,16,300,300
+traffic-15,Traffic cohort 15,40,nmrc-15,nmrc-aqua,outbound,delayed,absent,0,,0
+traffic-16,Traffic cohort 16,20,nmrc-16,nmrc-aqua,outbound,delayed,confirmed,14,185,185
+traffic-16,Traffic cohort 16,40,nmrc-16,nmrc-aqua,outbound,delayed,absent,0,,0
+traffic-17,Traffic cohort 17,20,nmrc-17,nmrc-aqua,outbound,delayed,confirmed,15,180,180
+traffic-17,Traffic cohort 17,40,nmrc-17,nmrc-aqua,outbound,delayed,absent,0,,0
+traffic-18,Traffic cohort 18,20,nmrc-1,nmrc-aqua,outbound,delayed,confirmed,14,180,180
+traffic-18,Traffic cohort 18,40,nmrc-1,nmrc-aqua,outbound,delayed,absent,0,,0
+traffic-19,Traffic cohort 19,20,nmrc-2,nmrc-aqua,outbound,delayed,confirmed,13,190,190
+traffic-19,Traffic cohort 19,40,nmrc-2,nmrc-aqua,outbound,delayed,absent,0,,0
+traffic-20,Traffic cohort 20,20,nmrc-3,nmrc-aqua,outbound,delayed,confirmed,19,170,170
+traffic-20,Traffic cohort 20,40,nmrc-3,nmrc-aqua,outbound,delayed,absent,0,,0

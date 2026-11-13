@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "dataset_id": "findmymetro-crowd-beta-v1",
+  "data_kind": "synthetic",
+  "purpose": "Functional beta validation before a real passenger pilot; not ETA model training or field-performance evidence.",
+  "seed": 20261028,
+  "reference_clock": "2026-10-28T02:30:00+00:00",
+  "network_version": "operator-catalogue-2026-10-08-227ea9a4f1",
+  "network_sha256": "48137828ebad4148d978d37829e7ba1d6a03bc7adc8d642926043e36486ca09b",
+  "policy": {
+    "service_report_max_age_seconds": 30,
+    "service_consensus_window_seconds": 120,
+    "service_consensus_users": 3,
+    "delay_agreement_band_seconds": 60,
+    "station_proximity_metres": 250,
+    "maximum_gps_accuracy_metres": 100,
+    "maximum_future_timestamp_seconds": 5
+  },
+  "location_notice": "Station references come from the existing catalogue. Every submitted position and account is fictional; underground fixes are controlled software inputs.",
+  "scenarios": 47,
+  "participants": 48,
+  "report_deliveries": 461,
+  "checkpoints": 73,
+  "files": [
+    "dataset.json",
+    "reports.csv",
+    "participants.csv",
+    "expected-checkpoints.csv"
+  ]
+}

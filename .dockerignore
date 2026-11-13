@@ -1,0 +1,13 @@
+.git
+.venv
+.local
+data
+!data/
+data/*
+!data/operator-network.json
+frontend/node_modules
+frontend/dist
+__pycache__
+.pytest_cache
+test-results
+.env
