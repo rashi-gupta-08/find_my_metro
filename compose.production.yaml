@@ -1,0 +1,20 @@
+# Run behind an HTTPS ingress that preserves Host and Origin; internal ports stay private.
+services:
+  api:
+    environment:
+      APP_ENV: production
+      SECURE_COOKIES: "true"
+      CORS_ORIGINS: ${PUBLIC_ORIGIN:?Set PUBLIC_ORIGIN to the HTTPS application URL}
+      ALLOWED_HOSTS: ${PUBLIC_HOST:?Set PUBLIC_HOST to the application hostname},localhost
+  worker:
+    environment:
+      APP_ENV: production
+      SECURE_COOKIES: "true"
+      CORS_ORIGINS: ${PUBLIC_ORIGIN:?Set PUBLIC_ORIGIN}
+      ALLOWED_HOSTS: ${PUBLIC_HOST:?Set PUBLIC_HOST}
+  migrate:
+    environment:
+      APP_ENV: production
+      SECURE_COOKIES: "true"
+      CORS_ORIGINS: ${PUBLIC_ORIGIN:?Set PUBLIC_ORIGIN}
+      ALLOWED_HOSTS: ${PUBLIC_HOST:?Set PUBLIC_HOST}
